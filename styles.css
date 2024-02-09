@@ -1,0 +1,1385 @@
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.canvas{
+    border: 3px solid black;
+    position: absolute;
+    width: 784.8px;
+    height: 498.8px; 
+    margin-left: 217px;
+    margin-top: 43px; 
+}
+/* code de la pièce 1 (index)*/
+
+.mur{
+    width: 784.8px;
+    height: 498.8px;
+    position: relative;
+    left: 220px;
+    top: 46px;
+}
+
+.tableau1{
+    position: absolute;
+    width: 164px;
+    height: 100px;
+    margin: 188px;
+    left: 332px;
+}
+
+.etagere{
+    position: absolute;
+    width: 130px;
+    height: 308px;
+    bottom: 100px;
+    left: 275px;
+}
+
+
+.microscope{
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    left: 300px;
+    bottom: 360.3px;
+}
+
+.fiole16{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 362.3px;
+    left: 333px;
+
+}
+.fiolevide16{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 362.3px;
+    left: 333px;
+}
+
+.fiole15{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 360.3px;
+    left: 338px;
+}
+
+.fiolevide15{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 360.3px;
+    left: 338px;
+}
+
+.livres6{
+    position: absolute;
+    width: 23px;
+    height: 34px;
+    bottom: 360px;
+    left: 369px;    
+}
+
+.fiole12{
+    position: absolute;
+    width: 17px;
+    height: 20px;
+    bottom: 303px;
+    left: 325px;
+}
+
+.fiolevide12{
+    position: absolute;
+    width: 17px;
+    height: 20px;
+    bottom: 303px;
+    left: 325px;
+}
+
+.fiole13{
+    position: absolute;
+    width: 17px;
+    height: 20px;
+    bottom: 303px;
+    left: 338px;
+}
+
+.fiolevide13{
+    position: absolute;
+    width: 17px;
+    height: 20px;
+    bottom: 303px;
+    left: 338px;
+}
+
+.tubes{
+    position: absolute;
+    width: 30px;
+    height: 18px;
+    bottom: 303px;
+    left: 288px;
+}
+
+.tubes2{
+    position: absolute;
+    width: 30px;
+    height: 18px;
+    bottom: 303px;
+    left: 363px;
+}
+
+
+.table{
+    position: absolute;
+    width: 168px;
+    height: 140px;
+    bottom: 94px;
+    left: 370px;
+}
+
+.chaise1{
+    position: absolute;
+    width: 90px;
+    height: 188px;
+    bottom: 94px;
+    left: 420px; 
+} 
+
+.ordinateur{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 379px;
+    bottom: 233px;
+}
+
+.table2{
+    position: absolute;
+    width: 234px;
+    height: 127px;
+    bottom: 41px;
+    left: 589px;
+}
+
+.chaise2{
+    position: absolute;
+    width: 95px;
+    height: 210px;
+    bottom: 41px;
+    left: 777px; 
+}
+
+.ordinateur2{
+    position: absolute;
+    width: 97px;
+    height: 62px;
+    left: 706px;
+    bottom: 168px;
+}
+
+.bulle_interaction{
+    position: absolute;
+    width: 465px;
+    height: 220px;
+    left: 537px;
+    bottom: 305px;
+}
+
+.bulle_interaction2{
+    position: absolute;
+    width: 360px;
+    height: 180px;
+    left: 507px;
+    bottom: 305px;
+}
+
+.bulle_interaction3{
+    position: absolute;
+    width: 230px;
+    height: 130px;
+    left: 507px;
+    bottom: 305px;
+}
+
+.bulle_interaction4{
+    position: absolute;
+    width: 760px;
+    height: 90px;
+    left: 240px;
+    bottom: 435px;
+}
+
+.menu{
+    width: 88px;
+    height: 28px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 80px;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    right: 260px;
+    top: 70px;
+    font-family:monospace;
+}
+
+/*code de la pièce 2*/
+
+
+/* tableaux */
+
+.tableau2{
+    position: absolute;
+    width: 95px;
+    height: 70px;
+    left: 288px;
+    top: 194px;
+}
+
+.tableau3{
+    position: absolute;
+    width: 108px;
+    height: 85px;
+    left: 465px;
+    top: 193px;
+}
+
+.tableau4{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 612px;
+    top: 193px;
+}
+
+.tableau5{
+    position: absolute;
+    width: 160px;
+    height: 90px;
+    left: 755px;
+    top: 197px;
+}
+
+
+/* bureau1 */
+
+.bureau1{
+    position: absolute;
+    bottom: 60px;
+    width: 358px;
+    height: 166px;
+    left: 265px;
+} 
+
+.microscope2{
+    position: absolute;    
+    width: 44px;
+    height: 60px;
+    bottom: 224px;
+    left:285px;
+}
+
+/* flacons */
+
+.flacon{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 340px;
+}
+
+.flacon2{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 370px;
+}
+
+.flacon3{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 350px;
+}
+
+.flacon4{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 360px;
+}
+
+
+/* fioles */
+
+.fiole{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 390px;
+
+}
+
+.fiolevide{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 390px;
+
+}
+
+.fioleW{
+    position: absolute;
+    width: 19px;
+    height: 17px;
+    bottom: 224px;
+    left: 400px;
+}
+
+.fiolevideW{
+    position: absolute;
+    width: 19px;
+    height: 17px;
+    bottom: 224px;
+    left: 400px;
+}
+
+.livres{
+    position: absolute;
+    width: 32px;
+    height: 42px;
+    bottom: 224px;
+    left: 458px;
+}
+
+
+.tubes3{
+    position: absolute;
+    width: 45px;
+    height: 28px;
+    bottom: 224px;
+    left: 495px;
+}
+
+
+.fiole4{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 530px; 
+}
+
+.fiolevide4{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 530px; 
+}
+
+.fiole5{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 550px; 
+}
+
+.fiolevide5{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 550px; 
+}
+
+.trepied{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 576px; 
+}
+
+.trepiedfiolevide{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 576px; 
+}
+
+.chaise3{
+    position: absolute;
+    width: 87px;
+    height: 188px;
+    bottom: 65px;
+    left: 398px; 
+}
+
+/* Ouverture des portes et tiroir du bureau 1*/
+
+.armoir_ouvertA{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 233px;
+} 
+
+.tiroir_ouvertA{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 260px;  
+} 
+
+.armoir_ouvertB{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:443px;
+} 
+
+.tiroir_ouvertB{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 470.3px;  
+} 
+
+
+/* bureau2 */
+
+.bureau2{
+    position: absolute;
+    bottom: 60px;
+    width: 358px;
+    height: 166px;
+    left: 616px;
+}
+
+.microscope3{
+    position: absolute;    
+    width: 44px;
+    height: 60px;
+    bottom: 224px;
+    left:635px;
+    }  
+
+.flaconA{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 692px;
+}
+    
+.flaconB{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 700px;
+}
+    
+.flaconC{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 735px;
+}
+    
+.flaconD{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 709px;
+}
+
+
+/* fioles */
+.fioleA{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 224px;
+    left: 753px;
+
+}
+
+.fiolevideA{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 224px;
+    left: 753px;
+
+}
+
+.fioleB{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 742px;
+}
+
+.fiolevideB{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 742px;
+}
+.livres2{
+    position: absolute;
+    width: 32px;
+    height: 42px;
+    bottom: 224px;
+    left: 808px;
+}
+
+.tubes4{
+    position: absolute;
+    width: 45px;
+    height: 28px;
+    bottom: 224px;
+    left: 850px;
+}
+
+.fioleC{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 880px; 
+}
+
+.fiolevideC{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 880px; 
+}
+
+
+.fioleD{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 900px; 
+}
+
+
+.fiolevideD{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 900px; 
+}
+
+.trepied2{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 924px; 
+}
+
+.trepied_fiolevide2{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 924px; 
+}
+.chaise4{
+    position: absolute;
+    width: 87px;
+    height: 188px;
+    bottom: 64px;
+    left: 751px; 
+} 
+
+
+/* Ouverture des portes et tiroir du bureau 2*/
+
+.armoir_ouvertC{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 584px;
+} 
+
+.tiroir_ouvertC{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 611.2px;  
+} 
+
+.armoir_ouvertD{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:794px;
+} 
+
+.tiroir_ouvertD{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 822.3px;  
+} 
+     
+
+/* piece 3 */
+
+/* bureau1 */
+
+.bureau3{
+    position: absolute;
+    bottom: 60px;
+    width: 358px;
+    height: 166px;
+    left: 265px;
+} 
+
+.microscope4{
+    position: absolute;    
+    width: 44px;
+    height: 60px;
+    bottom: 224px;
+    left:285px;
+}
+
+/* flacons */
+
+.flacon6{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 340px;
+}
+
+.flacon7{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 370px;
+}
+
+.flacon8{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 350px;
+}
+
+.flacon9{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 360px;
+}
+
+
+/* fioles */
+
+.fioleL{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 390px;
+
+}
+
+.fiolevideL{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 390px;
+
+}
+
+.fioleM{
+    position: absolute;
+    width: 19px;
+    height: 17px;
+    bottom: 224px;
+    left: 400px;
+}
+
+.fiolevideM{
+    position: absolute;
+    width: 19px;
+    height: 17px;
+    bottom: 224px;
+    left: 400px;
+}
+
+.livres4{
+    position: absolute;
+    width: 32px;
+    height: 42px;
+    bottom: 224px;
+    left: 458px;
+}
+
+
+.tubes5{
+    position: absolute;
+    width: 45px;
+    height: 28px;
+    bottom: 224px;
+    left: 495px;
+}
+
+
+.fiole6{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 530px; 
+}
+
+.fiolevide6{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 530px; 
+}
+
+.fiole7{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 550px; 
+}
+
+.fiolevide7{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 550px; 
+}
+
+.trepied3{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 576px; 
+}
+
+.trepied_fiolevide3{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 576px;  
+}
+
+.chaise5{
+    position: absolute;
+    width: 87px;
+    height: 188px;
+    bottom: 65px;
+    left: 398px; 
+}
+
+
+/* Ouverture des portes et tiroir du bureau 1*/
+
+.armoir_ouvertE{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 233px;
+} 
+
+.tiroir_ouvertE{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 260px;  
+} 
+
+.armoir_ouvertF{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:443px;
+} 
+
+.tiroir_ouvertF{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 470.3px;  
+} 
+
+
+
+/* bureau2 */
+
+.bureau4{
+    position: absolute;
+    bottom: 60px;
+    width: 358px;
+    height: 166px;
+    left: 616px;
+}
+
+.microscope5{
+    position: absolute;    
+    width: 44px;
+    height: 60px;
+    bottom: 224px;
+    left:635px;
+}  
+
+.flaconF{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 692px;
+}
+    
+.flaconG{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 700px;
+    }
+    
+.flaconH{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 735px;
+}
+    
+.flaconI{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 709px;
+}
+
+
+/* fioles */
+.fioleE{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 224px;
+    left: 753px;
+
+}
+
+.fiolevideE{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 224px;
+    left: 753px;
+
+}
+
+.fioleF{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 742px;
+}
+
+.fiolevideF{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 742px;
+}
+.livres5{
+    position: absolute;
+    width: 32px;
+    height: 42px;
+    bottom: 224px;
+    left: 808px;
+}
+
+.tubes6{
+    position: absolute;
+    width: 45px;
+    height: 28px;
+    bottom: 224px;
+    left: 850px;
+}
+
+.fioleG{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 880px; 
+}
+
+.fiolevideG{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 880px; 
+}
+
+
+.fioleH{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 900px; 
+}
+
+
+.fiolevideH{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 900px; 
+}
+
+.trepied4{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 924px; 
+}
+
+.trepied_fiolevide4{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 924px; 
+}
+.chaise6{
+    position: absolute;
+    width: 87px;
+    height: 188px;
+    bottom: 64px;
+    left: 751px; 
+} 
+
+
+
+
+/* Ouverture des portes et tiroir du bureau 2*/
+
+.armoir_ouvertG{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 584px;
+} 
+
+.tiroir_ouvertG{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 611.2px;  
+} 
+
+.armoir_ouvertH{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:794px;
+} 
+
+.tiroir_ouvertH{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 822.3px;  
+} 
+/*code de la pièce 4*/
+
+.bureau5{
+    position: absolute;
+    bottom: 60px;
+    width: 358px;
+    height: 166px;
+    left: 616px;
+}
+
+.tableauA{
+    position: absolute;
+    width: 164px;
+    height: 100px;
+    top: 202px;
+    left: 475px;
+}
+
+.microscope6{
+    position: absolute;    
+    width: 44px;
+    height: 60px;
+    bottom: 224px;
+    left:635px;
+}  
+
+ .assenseur{
+    position: absolute;
+    width: 120px;
+    height: 320px;
+    left: 274px;
+    bottom:70px;
+}
+
+.ascenseur_ouvert{
+    position: absolute;
+    width: 202px;
+    height: 320px;
+    left: 274px;
+    bottom:70px;
+}
+
+.flacon11{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 692px;
+        
+}
+
+.flacon12{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 700px;
+}
+
+
+.flacon14{
+    position: absolute;
+    width: 13px;
+    height: 20px;
+    bottom: 224px;
+    left: 709px;
+}
+
+
+.flacon13{
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    bottom: 224px;
+    left: 735px;
+}
+
+.fiole8{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 224px;
+    left: 752px;
+}
+
+.fiolevide8{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 224px;
+    left: 752px;
+} 
+
+.fiole9{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 742px;
+}
+
+.fiolevide9{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    bottom: 224px;
+    left: 742px;
+}
+
+.livres5{
+    position: absolute;
+    width: 32px;
+    height: 42px;
+    bottom: 224px;
+    left: 808px;
+}
+
+.tubes7{
+    position: absolute;
+    width: 45px;
+    height: 28px;
+    bottom: 224px;
+    left: 850px;
+}
+
+.fiole10{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 880px; 
+}
+
+.fiolevide10{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    bottom: 224px;
+    left: 880px;  
+}
+
+.fiole11{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 900px; 
+} 
+
+.fiolevide11{
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    bottom: 224px;
+    left: 900px; 
+} 
+
+
+.trepied5{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 924px; 
+}
+
+.trepied_fiolevide5{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 224px;
+    left: 924px; 
+}
+
+.chaise7{
+    position: absolute;
+    width: 87px;
+    height: 188px;
+    bottom: 64px;
+    left: 751px; 
+} 
+
+/* Ouverture des portes et tiroir du bureau 2*/
+
+.armoir_ouvertI{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 584px;
+} 
+
+.tiroir_ouvertI{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 611.2px;  
+} 
+
+.armoir_ouvertJ{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:794px;
+} 
+
+.tiroir_ouvertJ{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 822.3px;  
+} 
+
+
+.indice{
+    width: 52px;
+    height: 23px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 80px;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    left: 260px;
+    top: 70px;
+    font-family:monospace;
+}
+
+.indice2{
+    width: 25px;
+    height: 23px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 80px;
+    color: white;
+    background-color: orange;
+    border-color: #f4a64d;
+    left: 260px;
+    top: 70px;
+    font-family:monospace;
+}
+
+.quitter{
+    width: 50px;
+    height: 23px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 60px;
+    color: white;
+    background-color: red;
+    border-color: red;
+    bottom: 60px;
+    right: 252px;
+}
+
+.quitter1{
+    width: 50px;
+    height: 23px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 60px;
+    color: white;
+    background-color: red;
+    border-color: red;
+    bottom: 60px;
+    right: 252px;
+}
+
+
+
+.gameover{
+    width: 670px;
+    height: 203px;
+    position: absolute;
+    left: 285px;
+    padding-top: 180px;
+}
+
+.gameover2{
+    width: 670px;
+    height: 203px;
+    position: absolute;
+    left: 295px;
+    padding-top: 180px;
+}
+
+.gameover3{
+    width: 670px;
+    height: 203px;
+    position: absolute;
+    left: 285px;
+    padding-top: 180px;
+}
+
+.gameover4{
+    width: 670px;
+    height: 203px;
+    position: absolute;
+    left: 285px;
+    padding-top: 180px;
+}
+
+
+.vertical-menu {
+    width: 200px;
+    position: absolute;
+    padding: 900px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
