@@ -1,0 +1,169 @@
+/* A supprimer : Ouverture des portes et tiroir du bureau 1*/
+
+.armoir_ouvertA{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 233px;
+} 
+
+.tiroir_ouvertA{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 260px;  
+} 
+
+.armoir_ouvertB{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:443px;
+} 
+
+.tiroir_ouvertB{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 470.3px;  
+} 
+
+/* A supprimer : Ouverture des portes et tiroir du bureau 2*/
+
+.armoir_ouvertC{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 584px;
+} 
+
+.tiroir_ouvertC{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 611.2px;  
+} 
+
+.armoir_ouvertD{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:794px;
+} 
+
+.tiroir_ouvertD{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 822.3px;  
+} 
+
+/* A supprimer : Ouverture des portes et tiroir du bureau 1*/
+
+.armoir_ouvertE{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 233px;
+} 
+
+.tiroir_ouvertE{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 260px;  
+} 
+
+.armoir_ouvertF{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:443px;
+} 
+
+.tiroir_ouvertF{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 470.3px;  
+}
+
+/* Ouverture des portes et tiroir du bureau 2*/
+
+.armoir_ouvertG{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 584px;
+} 
+
+.tiroir_ouvertG{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 611.2px;  
+} 
+
+.armoir_ouvertH{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:794px;
+} 
+
+.tiroir_ouvertH{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 822.3px;  
+} 
+
+/* Ouverture des portes et tiroir du bureau 2*/
+
+.armoir_ouvertI{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 584px;
+} 
+
+.tiroir_ouvertI{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 611.2px;  
+} 
+
+.armoir_ouvertJ{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:794px;
+} 
+
+.tiroir_ouvertJ{
+    position: absolute;
+    width: 152px;
+    height: 75px;
+    bottom: 134px;
+    left: 822.3px;  
+} 

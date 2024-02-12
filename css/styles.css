@@ -1,0 +1,188 @@
+/*Styles généraux*/ 
+
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.canvas{
+    border: 3px solid black;
+    position: absolute;
+    width: 784.8px;
+    height: 498.8px; 
+    margin-left: 217px;
+    margin-top: 43px; 
+}
+
+.mur{
+    width: 784.8px;
+    height: 498.8px;
+    position: relative;
+    left: 220px;
+    top: 46px;
+}
+
+/*Menu*/
+
+.menu{
+    width: 88px;
+    height: 28px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 80px;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    right: 260px;
+    top: 70px;
+    font-family:monospace;
+}
+
+.quitter{
+    width: 50px;
+    height: 23px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 60px;
+    color: white;
+    background-color: red;
+    border-color: red;
+    bottom: 60px;
+    right: 252px;
+}
+
+.quitter1{
+    width: 50px;
+    height: 23px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 60px;
+    color: white;
+    background-color: red;
+    border-color: red;
+    bottom: 60px;
+    right: 252px;
+}
+
+.vertical-menu {
+    width: 200px;
+    position: absolute;
+    padding: 900px;
+}
+  
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+  
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+  
+.vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/*Indice*/
+
+.indice{
+    width: 52px;
+    height: 23px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 80px;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    left: 260px;
+    top: 70px;
+    font-family:monospace;
+}
+
+.indice2{
+    width: 25px;
+    height: 23px;
+    position: absolute;
+    font-size: x-small;
+    border-radius: 80px;
+    color: white;
+    background-color: orange;
+    border-color: #f4a64d;
+    left: 260px;
+    top: 70px;
+    font-family:monospace;
+}
+
+/*Game-Over*/
+
+.gameover{
+    width: 670px;
+    height: 203px;
+    position: absolute;
+    left: 285px;
+    padding-top: 180px;
+}
+
+.gameover2{
+    width: 670px;
+    height: 203px;
+    position: absolute;
+    left: 295px;
+    padding-top: 180px;
+}
+
+.gameover3{
+    width: 670px;
+    height: 203px;
+    position: absolute;
+    left: 285px;
+    padding-top: 180px;
+}
+
+.gameover4{
+    width: 670px;
+    height: 203px;
+    position: absolute;
+    left: 285px;
+    padding-top: 180px;
+}
+
+/*Bulles d'interaction*/
+
+.bulle_interaction{
+    position: absolute;
+    width: 465px;
+    height: 220px;
+    left: 537px;
+    bottom: 305px;
+}
+
+.bulle_interaction2{
+    position: absolute;
+    width: 360px;
+    height: 180px;
+    left: 507px;
+    bottom: 305px;
+}
+
+.bulle_interaction3{
+    position: absolute;
+    width: 230px;
+    height: 130px;
+    left: 507px;
+    bottom: 305px;
+}
+
+.bulle_interaction4{
+    position: absolute;
+    width: 760px;
+    height: 90px;
+    left: 240px;
+    bottom: 435px;
+}
+
+ 
