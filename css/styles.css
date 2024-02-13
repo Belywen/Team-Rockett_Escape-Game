@@ -17,7 +17,8 @@
     height: 100%;
     z-index: 1;
 }
-  
+
+/* code de la pièce 1 (index.html)*/
 .mur {
     position: absolute;
     top: 0;

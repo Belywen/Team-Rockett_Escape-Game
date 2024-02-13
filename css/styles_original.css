@@ -1,20 +1,6 @@
 /* code de la pièce 1 (index.html)*/
 
-.tableau1{
-    position: absolute;
-    width: 164px;
-    height: 100px;
-    margin: 188px;
-    left: 332px;
-}
 
-.etagere{
-    position: absolute;
-    width: 130px;
-    height: 308px;
-    bottom: 100px;
-    left: 275px;
-}
 
 .microscope{
     position: absolute;
