@@ -1,41 +1,5 @@
-body {
-    box-sizing: border-box;
-    overflow: hidden;
-}
+/* code de la pièce 1 (index.html)*/
 
-.canvas{
-    border: 3px solid black;
-    position: absolute;
-    width: 784.8px;
-    height: 498.8px; 
-    margin-left: 217px;
-    margin-top: 43px; 
-}
-/* code de la pièce 1 (index)*/
-
-.mur{
-    width: 784.8px;
-    height: 498.8px;
-    position: relative;
-    left: 220px;
-    top: 46px;
-}
-
-.tableau1{
-    position: absolute;
-    width: 164px;
-    height: 100px;
-    margin: 188px;
-    left: 332px;
-}
-
-.etagere{
-    position: absolute;
-    width: 130px;
-    height: 308px;
-    bottom: 100px;
-    left: 275px;
-}
 
 
 .microscope{
@@ -52,8 +16,8 @@ body {
     height: 15px;
     bottom: 362.3px;
     left: 333px;
-
 }
+
 .fiolevide16{
     position: absolute;
     width: 15px;
@@ -134,7 +98,6 @@ body {
     left: 363px;
 }
 
-
 .table{
     position: absolute;
     width: 168px;
@@ -183,55 +146,7 @@ body {
     bottom: 168px;
 }
 
-.bulle_interaction{
-    position: absolute;
-    width: 465px;
-    height: 220px;
-    left: 537px;
-    bottom: 305px;
-}
-
-.bulle_interaction2{
-    position: absolute;
-    width: 360px;
-    height: 180px;
-    left: 507px;
-    bottom: 305px;
-}
-
-.bulle_interaction3{
-    position: absolute;
-    width: 230px;
-    height: 130px;
-    left: 507px;
-    bottom: 305px;
-}
-
-.bulle_interaction4{
-    position: absolute;
-    width: 760px;
-    height: 90px;
-    left: 240px;
-    bottom: 435px;
-}
-
-.menu{
-    width: 88px;
-    height: 28px;
-    position: absolute;
-    font-size: x-small;
-    border-radius: 80px;
-    color: white;
-    background-color: orange;
-    border-color: orange;
-    right: 260px;
-    top: 70px;
-    font-family:monospace;
-}
-
 /*code de la pièce 2*/
-
-
 /* tableaux */
 
 .tableau2{
@@ -265,7 +180,6 @@ body {
     left: 755px;
     top: 197px;
 }
-
 
 /* bureau1 */
 
@@ -430,41 +344,6 @@ body {
     left: 398px; 
 }
 
-/* Ouverture des portes et tiroir du bureau 1*/
-
-.armoir_ouvertA{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left: 233px;
-} 
-
-.tiroir_ouvertA{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 260px;  
-} 
-
-.armoir_ouvertB{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left:443px;
-} 
-
-.tiroir_ouvertB{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 470.3px;  
-} 
-
-
 /* bureau2 */
 
 .bureau2{
@@ -523,7 +402,6 @@ body {
     height: 18px;
     bottom: 224px;
     left: 753px;
-
 }
 
 .fiolevideA{
@@ -532,7 +410,6 @@ body {
     height: 18px;
     bottom: 224px;
     left: 753px;
-
 }
 
 .fioleB{
@@ -550,6 +427,7 @@ body {
     bottom: 224px;
     left: 742px;
 }
+
 .livres2{
     position: absolute;
     width: 32px;
@@ -615,49 +493,14 @@ body {
     bottom: 224px;
     left: 924px; 
 }
+
 .chaise4{
     position: absolute;
     width: 87px;
     height: 188px;
     bottom: 64px;
     left: 751px; 
-} 
-
-
-/* Ouverture des portes et tiroir du bureau 2*/
-
-.armoir_ouvertC{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left: 584px;
-} 
-
-.tiroir_ouvertC{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 611.2px;  
-} 
-
-.armoir_ouvertD{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left:794px;
-} 
-
-.tiroir_ouvertD{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 822.3px;  
-} 
-     
+}     
 
 /* piece 3 */
 
@@ -824,43 +667,6 @@ body {
     left: 398px; 
 }
 
-
-/* Ouverture des portes et tiroir du bureau 1*/
-
-.armoir_ouvertE{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left: 233px;
-} 
-
-.tiroir_ouvertE{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 260px;  
-} 
-
-.armoir_ouvertF{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left:443px;
-} 
-
-.tiroir_ouvertF{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 470.3px;  
-} 
-
-
-
 /* bureau2 */
 
 .bureau4{
@@ -911,7 +717,6 @@ body {
     left: 709px;
 }
 
-
 /* fioles */
 .fioleE{
     position: absolute;
@@ -919,7 +724,6 @@ body {
     height: 18px;
     bottom: 224px;
     left: 753px;
-
 }
 
 .fiolevideE{
@@ -928,7 +732,6 @@ body {
     height: 18px;
     bottom: 224px;
     left: 753px;
-
 }
 
 .fioleF{
@@ -946,6 +749,7 @@ body {
     bottom: 224px;
     left: 742px;
 }
+
 .livres5{
     position: absolute;
     width: 32px;
@@ -987,7 +791,6 @@ body {
     left: 900px; 
 }
 
-
 .fiolevideH{
     position: absolute;
     width: 20px;
@@ -1011,6 +814,7 @@ body {
     bottom: 224px;
     left: 924px; 
 }
+
 .chaise6{
     position: absolute;
     width: 87px;
@@ -1019,42 +823,6 @@ body {
     left: 751px; 
 } 
 
-
-
-
-/* Ouverture des portes et tiroir du bureau 2*/
-
-.armoir_ouvertG{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left: 584px;
-} 
-
-.tiroir_ouvertG{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 611.2px;  
-} 
-
-.armoir_ouvertH{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left:794px;
-} 
-
-.tiroir_ouvertH{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 822.3px;  
-} 
 /*code de la pièce 4*/
 
 .bureau5{
@@ -1113,7 +881,6 @@ body {
     bottom: 224px;
     left: 700px;
 }
-
 
 .flacon14{
     position: absolute;
@@ -1212,7 +979,6 @@ body {
     left: 900px; 
 } 
 
-
 .trepied5{
     position: absolute;
     width: 30px;
@@ -1236,150 +1002,3 @@ body {
     bottom: 64px;
     left: 751px; 
 } 
-
-/* Ouverture des portes et tiroir du bureau 2*/
-
-.armoir_ouvertI{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left: 584px;
-} 
-
-.tiroir_ouvertI{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 611.2px;  
-} 
-
-.armoir_ouvertJ{
-    position: absolute;
-    height: 90px;
-    width: 206px;
-    bottom: 85px;
-    left:794px;
-} 
-
-.tiroir_ouvertJ{
-    position: absolute;
-    width: 152px;
-    height: 75px;
-    bottom: 134px;
-    left: 822.3px;  
-} 
-
-
-.indice{
-    width: 52px;
-    height: 23px;
-    position: absolute;
-    font-size: x-small;
-    border-radius: 80px;
-    color: white;
-    background-color: orange;
-    border-color: orange;
-    left: 260px;
-    top: 70px;
-    font-family:monospace;
-}
-
-.indice2{
-    width: 25px;
-    height: 23px;
-    position: absolute;
-    font-size: x-small;
-    border-radius: 80px;
-    color: white;
-    background-color: orange;
-    border-color: #f4a64d;
-    left: 260px;
-    top: 70px;
-    font-family:monospace;
-}
-
-.quitter{
-    width: 50px;
-    height: 23px;
-    position: absolute;
-    font-size: x-small;
-    border-radius: 60px;
-    color: white;
-    background-color: red;
-    border-color: red;
-    bottom: 60px;
-    right: 252px;
-}
-
-.quitter1{
-    width: 50px;
-    height: 23px;
-    position: absolute;
-    font-size: x-small;
-    border-radius: 60px;
-    color: white;
-    background-color: red;
-    border-color: red;
-    bottom: 60px;
-    right: 252px;
-}
-
-
-
-.gameover{
-    width: 670px;
-    height: 203px;
-    position: absolute;
-    left: 285px;
-    padding-top: 180px;
-}
-
-.gameover2{
-    width: 670px;
-    height: 203px;
-    position: absolute;
-    left: 295px;
-    padding-top: 180px;
-}
-
-.gameover3{
-    width: 670px;
-    height: 203px;
-    position: absolute;
-    left: 285px;
-    padding-top: 180px;
-}
-
-.gameover4{
-    width: 670px;
-    height: 203px;
-    position: absolute;
-    left: 285px;
-    padding-top: 180px;
-}
-
-
-.vertical-menu {
-    width: 200px;
-    position: absolute;
-    padding: 900px;
-  }
-  
-  .vertical-menu a {
-    background-color: #eee;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-  }
-  
-  .vertical-menu a:hover {
-    background-color: #ccc;
-  }
-  
-  .vertical-menu a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
