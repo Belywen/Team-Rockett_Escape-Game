@@ -5,7 +5,7 @@
     border: 3px solid black;
     width: 950.8px;
     height: 558.8px;
-    top: 80px;
+    top: 50px;
     left: 300px;
 }
   
@@ -18,6 +18,14 @@
     z-index: 1;
 }
 
+h1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
 /* code de la pièce 1 (index.html)*/
 .mur {
     position: absolute;
@@ -28,121 +36,102 @@
     object-fit: cover; /* Pour ajuster l'image à la taille de son conteneur */
     z-index: 2;
 }
-  
+
+
 .tableau1{
     position: absolute;
-    width: 208px;
-    height: 165px;    
-    left: 345px;
-    top: 151px;
-    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
+    width: 200px;
+    height: 105px;  
+    left: 90px;
+    top: 110px;
+    z-index: 3;
 }
-
- .etagere {
-    position: absolute;
-    width: 158px;
-    height: 373px;
-    bottom: 52px;
-    left: 60px;
-    z-index: 3; 
-} 
 
 /* 1er étagère */
 
 .container-etagere1 {
     position: relative;
-    border: 1px solid black;
-    width: 141px;
-    height: 56px;
-    top: 141px;
-    left: 69px;
+    width: 80px;
+    height: 200px;
+    top: 100px;
+    left: 406px;
     z-index: 3;
 }
 
-.microscope{
+.etagereA{
     position: absolute;
-    width: 30px;
-    height: 45px;
-    left: 14px;
-    top: 5px;
-    z-index: 3;
+    width: 80px;
+    height: 15px;    
+    left: 0px;
+    top: 35px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
 }
 
-
-.fiole16{
+.etagereB{
     position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 65px;
-    top: 25px;
-    z-index: 3;
+    width: 80px;
+    height: 15px;    
+    left: 0px;
+    top: 105px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
 }
 
 
-.fiole15{
+.etagereC{
     position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 50px;
-    top: 20px;
-    z-index: 3;
+    width: 80px;
+    height: 15px;    
+    left: 0px;
+    top: 175px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
 }
 
-.livres6{
-    position: relative;
-    width: 34px;
-    height: 42px;
-    left: 98px;
-    top: 5px;
-    z-index: 3;  
-}
-
-/* 2eme étagère */
 .container-etagere2 {
     position: relative;
-    border: 1px solid black;
-    width: 141px;
-    height: 56px;
-    top: 154px;
-    left: 69px;
+    width: 280px;
+    height: 200px;
+    bottom: 100px;
+    left: 506px;
     z-index: 3;
+}
+.etagereD{
+    position: absolute;
+    width: 80px;
+    height: 15px;    
+    left: 20px;
+    top: 30px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
 }
 
-.tubes{
+.etagereE{
     position: absolute;
-    width: 40px;
-    height: 23px;
-    top: 24px;
-    left: 8px;
-    z-index: 3;
+    width: 170px;
+    height: 15px;    
+    left: 60px;
+    top: 100px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
 }
 
-.fiole12{
+.etagereF{
     position: absolute;
-    width: 23px;
-    height: 28px;
-    top: 20px;
-    left: 55px;
-    z-index: 3;
+    width: 80px;
+    height: 15px;    
+    left: 180px;
+    top: 170px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
 }
 
-.fiole13{
+/* Objet des étagère */
+
+.plante1{
     position: absolute;
-    width: 23px;
-    height: 28px;
-    top: 20px;
-    left: 68px;
-    z-index: 3;
+    width: 35px;
+    height: 43px;
+    left: 430px;
+    bottom: 423px;
+    z-index: 3; 
 }
 
-.tubes2{
-    position: absolute;
-    width: 40px;
-    height: 23px;
-    top: 24px;
-    left: 96px;
-    z-index: 3;
-}
 
 /* Mobilier avec pc portable */
 
