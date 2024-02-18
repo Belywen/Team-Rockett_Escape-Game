@@ -35,7 +35,7 @@ function handleKeyRelease(event) {
 
 //Variables pour Perso
 let x = 50
-let y = 50
+let y = 400
 let isPersoDroite = true
 let isPersoDroite1 = true
 let isArrowKeyPressed = false
