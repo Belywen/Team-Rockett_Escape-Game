@@ -31,10 +31,9 @@ function handleKeyRelease(event) {
     }
 }
 
+//Partie du personnage
 
-// Partie du personnage
-
-//Variables pour le personnage
+//Variables pour Perso
 let x = 50
 let y = 50
 let isPersoDroite = true
@@ -43,12 +42,12 @@ let isArrowKeyPressed = false
 let persoImage = new Image()
 persoImage.src = "images/personnages/01a_perso.png"
 
-//Permet d'attendre que l'image soit complétement chargée avant de dessiner le personnage
+//Permet d'attendre que l'image soit complétement chargée avant de dessiner Perso
 persoImage.onload = function () {
-    drawPerso()
+    drawPerso();
 }
 
-/*Personnage qui marche vers la droite n1*/
+/*Perso qui marche vers la droite n1*/
 function persoDroite1() {
     let sx = 1
     let sy = 3
@@ -60,7 +59,7 @@ function persoDroite1() {
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
 
-/*Personnage qui marche vers la droite n2*/
+/*Perso qui marche vers la droite n2*/
 function persoDroite2() {
     let sx = 77
     let sy = 1
@@ -72,7 +71,7 @@ function persoDroite2() {
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
 
-/*Personnage qui marche vers la gauche n1*/
+/*Perso qui marche vers la gauche n1*/
 function persoGauche1() {
     let sx = 584 
     let sy = 289
@@ -84,7 +83,7 @@ function persoGauche1() {
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
 
-/*Personnage qui marche vers la gauche n2*/
+/*Perso qui marche vers la gauche n2*/
 function persoGauche2() {
     let sx = 513
     let sy = 286
@@ -96,7 +95,7 @@ function persoGauche2() {
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
 
-/*Personnage face*/
+/*Perso face*/
 function persoFace() {  
     // Dessine seulement la partie de l'image délimitée par les coordonnées (sx, sy) et les dimensions (sWidth, sHeight)
     let sx = 136.144 // Coordonnée x du coin supérieur gauche de la région à extraire
@@ -113,17 +112,17 @@ function persoFace() {
 let prevX = x
 let prevY = y
 
-//Efface personnage à chaque mouvement
+//Efface Perso à chaque mouvement
 function clearPerso() {
-    let clearWidth = 50 // Largeur de la région du personnage
+    let clearWidth = 50 // Largeur de la région d'Perso
     ctx.clearRect(prevX - clearWidth, 0, clearWidth + 70, canvas.height)
 }
 
-/*Fonctions pour faire bouger le personnage*/
+/*Fonctions pour faire bouger Perso*/
 function movePersoRight() {
     clearPerso()
     isArrowKeyPressed = true //Touche pressée
-    isPersoDroite = true //Direction du personnage
+    isPersoDroite = true //Direction d'Perso
     prevX = x
     x += 20 
     drawPerso()
@@ -132,13 +131,13 @@ function movePersoRight() {
 function movePersoLeft() { 
     clearPerso()
     isArrowKeyPressed = true //Touche pressée
-    isPersoDroite = false // Direction du personnage
+    isPersoDroite = false // Direction d'Perso
     prevX = x
     x -= 20
     drawPerso()
 }
 
-//Fonction qui dessine le personnage
+//Fonction qui dessine Perso
 function drawPerso() {
     clearPerso()
     if (isArrowKeyPressed) {
@@ -166,4 +165,3 @@ function draw() {
 }
 
 draw()
-
