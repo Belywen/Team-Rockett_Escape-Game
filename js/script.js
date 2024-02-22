@@ -30,3 +30,11 @@ function handleKeyPress(event) {
             break
     }
 }
+
+
+
+
+
+
+/*Fonction qui se rappelle depuis quelle page vient le personnage
+S'il vient de la page de droite alors x = 40 sinon x = 890 */

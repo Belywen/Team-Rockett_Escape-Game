@@ -1,11 +1,5 @@
-//Partie du dessin du personnage
+//Dessin du personnage
 
-//Variables pour le personnage
-let x = 50
-let y = 400
-let isPersoDroite = true
-let isPersoDroite1 = true
-let isArrowKeyPressed = false
 let persoImage = new Image()
 persoImage.src = "images/personnages/01a_perso.png"
 
@@ -76,59 +70,3 @@ function persoFace() {
 }
 
 
-let prevX = x
-let prevY = y
-
-//Efface le personnage à chaque mouvement
-function clearPerso() {
-    let clearWidth = 50 // Largeur de la région du personnage
-    ctx.clearRect(prevX - clearWidth, 0, clearWidth + 70, canvas.height)
-}
-
-/*Fonctions pour faire bouger le personnage*/
-function movePersoRight() {
-    clearPerso()
-    isArrowKeyPressed = true //Touche pressée
-    isPersoDroite = true //Direction d'Perso
-    prevX = x
-    x += 20 
-    drawPerso()
-}
-
-function movePersoLeft() { 
-    clearPerso()
-    isArrowKeyPressed = true //Touche pressée
-    isPersoDroite = false // Direction du personnage
-    prevX = x
-    x -= 20
-    drawPerso()
-}
-
-//Fonction qui dessine le personnage
-function drawPerso() {
-    clearPerso()
-    if (isArrowKeyPressed) {
-        if (isPersoDroite) { 
-            if (isPersoDroite1) {
-                persoDroite1();
-            } else {
-                persoDroite2();
-            }
-        } else {
-            if (isPersoDroite1) {
-                persoGauche1();
-            } else {
-                persoGauche2();
-            }
-        }
-        isPersoDroite1 = !isPersoDroite1;
-    } else {
-        persoFace();
-    }
-}
-
-function draw() {
-    drawPerso()
-}
-
-draw()
