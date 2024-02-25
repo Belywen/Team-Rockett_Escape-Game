@@ -132,6 +132,15 @@ h1{
     z-index: 3; 
 }
 
+.plante2{
+    position: absolute;
+    width: 35px;
+    height: 43px;
+    left: 710px;
+    bottom: 283px;
+    z-index: 3; 
+}
+
 .globe{
     position: absolute;
     width: 35px;
@@ -141,6 +150,50 @@ h1{
     z-index: 3; 
 }
 
+.plante_carnivore{
+    position: absolute;
+    width: 35px;
+    height: 43px;
+    left: 430px;
+    bottom: 283px;
+    z-index: 3; 
+}
+
+.charbon{
+    position: absolute;
+    width: 43px;
+    height: 23px;
+    left: 550px;
+    bottom: 423px;
+    z-index: 3; 
+}
+
+.atome{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 572px;
+    bottom: 358px;
+    z-index: 3; 
+}
+
+.lunette{
+    position: absolute;
+    width: 43px;
+    height: 23px;
+    left: 628px;
+    bottom: 358px;
+    z-index: 3; 
+}
+
+.masque{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 686px;
+    bottom: 358px;
+    z-index: 3;
+}
 /* Mobilier avec pc portable */
 
 .chaise1{
