@@ -1,3 +1,13 @@
+/* ecran */
+.pc{
+    position: absolute;
+    width: 650px;
+    height: 400px; 
+    left: 450px;
+    top: 200px;   
+    z-index: 4;
+}
+
 /*Menu*/
 
 .menu{
@@ -40,28 +50,6 @@
     right: 252px;
 }
 
-.vertical-menu {
-    width: 200px;
-    position: absolute;
-    padding: 900px;
-}
-  
-.vertical-menu a {
-    background-color: #eee;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-}
-  
-.vertical-menu a:hover {
-    background-color: #ccc;
-}
-  
-.vertical-menu a.active {
-    background-color: #04AA6D;
-    color: white;
-}
 
 /*Indice*/
 
@@ -133,16 +121,18 @@
     position: absolute;
     width: 465px;
     height: 220px;
-    left: 537px;
+    left: 607px;
     bottom: 305px;
+    z-index: 3;
 }
 
 .bulle_interaction2{
     position: absolute;
     width: 360px;
     height: 180px;
-    left: 507px;
+    right: 400px;
     bottom: 305px;
+    z-index: 3;
 }
 
 .bulle_interaction3{
@@ -151,14 +141,16 @@
     height: 130px;
     left: 507px;
     bottom: 305px;
+    z-index: 3;
 }
 
 .bulle_interaction4{
     position: absolute;
-    width: 760px;
-    height: 90px;
-    left: 240px;
-    bottom: 435px;
+    width: 910px;
+    height: 110px;
+    left: 330px;
+    top: 145px;
+    z-index: 3;
 }
 
  

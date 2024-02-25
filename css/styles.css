@@ -132,6 +132,14 @@ h1{
     z-index: 3; 
 }
 
+.globe{
+    position: absolute;
+    width: 35px;
+    height: 43px;
+    left: 430px;
+    bottom: 353px;
+    z-index: 3; 
+}
 
 /* Mobilier avec pc portable */
 
@@ -196,4 +204,41 @@ h1{
     left: 580px;
     bottom: 138px;
     z-index: 3;
+}
+
+/* ecran */
+.pc{
+    position: absolute;
+    width: 650px;
+    height: 400px; 
+    left: 450px;
+    top: 200px;   
+    z-index: 4;
+}
+
+.photo{
+    position: absolute;
+    width: 400px;
+    height: 400px; 
+    z-index: 4;
+    top: 210px;
+    Left: 570px;
+}
+
+.photo2{
+    position: absolute;
+    width: 580px;
+    height: 400px; 
+    z-index: 4;
+    top: 210px;
+    Left: 570px;
+}
+
+.enigme{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    z-index: 3;
+    top: 30px;
+    Left: 70px;    
 }
