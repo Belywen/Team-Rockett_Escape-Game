@@ -269,29 +269,5 @@ h1{
     z-index: 4;
 }
 
-.photo{
-    position: absolute;
-    width: 400px;
-    height: 400px; 
-    z-index: 4;
-    top: 210px;
-    Left: 570px;
-}
 
-.photo2{
-    position: absolute;
-    width: 580px;
-    height: 400px; 
-    z-index: 4;
-    top: 210px;
-    Left: 570px;
-}
 
-.enigme{
-    position: absolute;
-    width: 800px;
-    height: 500px;
-    z-index: 3;
-    top: 30px;
-    Left: 70px;    
-}
