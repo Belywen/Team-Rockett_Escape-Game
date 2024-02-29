@@ -97,3 +97,86 @@
     left: 310px;
     bottom: 225px;
 }
+
+.tableau_retourner{
+    position: absolute;
+    width: 230px;
+    height: 120px;
+    z-index: 3;
+    left: 360px;
+    top: 120px;
+}
+
+.enveloppe{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    z-index: 3;
+    left: 455px;
+    top: 160px;
+}
+
+.cle{
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    z-index: 4; 
+    bottom: 190px;
+    left: 40px;
+    transform:rotate(90deg);
+    z-index: 1;
+}
+
+.classeurA{
+    position: absolute;
+    width: 56px;
+    height: 40px;
+    bottom: 190px;
+    left: 500px;
+    z-index: 2;
+}
+
+.classeurB{
+    position: absolute;
+    width: 56px;
+    height: 60px;
+    bottom: 190px;
+    left: 555px;
+    z-index: 2;
+}
+
+.classeurC{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    bottom: 190px;
+    left: 625px;
+    z-index: 2;
+}
+
+.classeurD{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    bottom: 205px;
+    left: 625px;
+    z-index: 2;
+}
+
+.classeurE{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    bottom: 219px;
+    left: 625px;
+    z-index: 2;
+}
+
+.livre3{
+    position: absolute;
+    width: 56px;
+    height: 25px;
+    bottom: 230px;
+    left: 500px;
+    z-index: 2;
+}

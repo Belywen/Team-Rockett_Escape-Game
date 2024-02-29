@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="fr">
+       <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Escape Game</title>
+          <link rel="stylesheet" href="css/styles.css">
+          <link rel="stylesheet" href="css/styles_gen_menus.css">
+          <link rel="stylesheet" href="css/styles_document.css">
+          <!--<link rel="stylesheet" href="css/styles_lvl01.css">-->
+       </head>
+     <!-- Maquette D fait-->
+
+       <body>
+          <header>
+              <h1>Escape Game</h1>  <!--On a pas encore decider, si je dois mettre le nom du jeu ou laisser le titre avec des modification -->
+          </header>
+             <section class="canvas-container">
+                 <canvas id="myCanvas"></canvas>
+                    <img class="mur" src="images/piece1.png" alt="un mur violet"/> 
+                    <img class="tableau3" src="images/tableau2.png" alt="un tableau de périodique accrocher au centre de a pièce"/>
+                    <!-- <img class="tableau_retourner" src="images/tableau_brun.png" alt="l'arrière du tableau de périodique"/> -->
+                    <!-- <img class="enveloppe" src="images/enveloppe.png" alt="l'arrière du tableau de périodique"/> -->
+
+                    <div class="container-bureau">
+                        <img class="bureau1" src="images/bureau4.png" alt="le premier bureau en bas à gauche"/>
+                        <img class="microscope" src="images/microscope.png" alt="le microscope poser sur le bureau à côté des fioles"/>
+                        <img class="flacon" src="images/flacon.png" alt="le premier flacon poser sur le bureau"/>
+                        <img class="flacon2" src="images/flacon.png" alt="le deuxieme flacon poser sur le bureau"/>
+                        <img class="flacon3" src="images/flacon.png" alt="le troisième flacon poser sur le bureau"/>
+                        <img class="flacon4" src="images/flacon4.png" alt="le quatrième flacon poser sur le bureau"/>
+
+                        <!-- fioles -->
+                        <img class="fioleW" src="images/fiole.png" alt="la fiole violet poser sur le bureau "/>
+                        <img class="fiole" src="images/fiole.png" alt="la deuxieme fiole poser sur le bureau"/>
+                        <!-- mettre d'autre tube de couleur et lamette -->
+                        <img class="tubes3" src="images/fioles1.png" alt="le tubes poser sur le bureau"/>
+                        <img class="fiole4" src="images/fiole4.png" alt="la fiole poser sur le bureau"/>
+                        <img class="fiole5" src="images/fiole4.png" alt="la fiole poser sur le bureau"/>
+
+                        <img class="fiole-a" src="images/fiole-bleu.png" alt="une fiole">  
+                        <img class="fiole-b" src="images/fiole-gris.png" alt="une fiole">  
+                        <img class="fiole-c" src="images/fiole-cuivre.png" alt="une fiole">  
+                        <img class="fiole-d" src="images/fiole-mauve.png" alt="une fiole">  
+                        <img class="fiole-e" src="images/fiole-bleu_sombre.png" alt="une fiole">  
+                        <img class="fiole-f" src="images/fiole-cuivre.png" alt="une fiole">  
+                        <img class="fiole-g" src="images/fiole-zinc.png" alt="une fiole">  
+                        <img class="fiole-h" src="images/fiole-cuivre.png" alt="une fiole">  
+                        <img class="fiole-i" src="images/fiole-cuivre.png" alt="une fiole">  
+                        <img class="lamelles" src="images/lamelle.png" alt="une fiole">  
+
+
+                        <img class="trepied" src="images/trepied.png" alt="le trepied poser sur le bureau"/>
+                        <img class="chaise3" src="images/chaise.png" alt="une chaise devant"/>
+                        <img class="cle" src="images/clé.png" alt="une clé pour ouvrir une serrure">
+
+                        <!-- <img class="fiolevideW" src="images/fiolesvide.png" alt="Fiole Vide">   -->
+                        <!-- <img class="fiolevide" src="images/fiolesvide.png" alt="Fiole Vide">   -->
+                        <!-- <img class="fiolevide4" src="images/fiolevide2.png" alt="Fiole Vide">     -->
+                        <!-- <img class="fiolevide5" src="images/fiolevide2.png" alt="Fiole Vide">     -->
+                        <!-- <img class="trepiedfiolevide" src="images/trepied_fiolevide.png" alt="trepied"/> -->
+
+                    </div>
+        
+                    
+
+              <!-- bureau 2 -->
+
+                    <img class="bureau2" src="images/bureau4.png" alt="bureau"/>
+                    <img class="microscope3" src="images/microscope.png" alt="microscope"/>
+                    <img class="flaconA" src="images/flacon.png" alt="flaconA"/>
+                    <img class="flaconB" src="images/flacon.png" alt="flaconB"/>
+                    <img class="flaconC" src="images/flacon.png" alt="flaconC"/>
+                    <img class="flaconD" src="images/flacon4.png" alt="flaconD"/>
+
+                    <!-- fioles -->
+                    <img class="fioleA" src="images/fiole.png" alt="fiole"/>
+                    <img class="fioleB" src="images/fiole.png" alt="fiole"/>
+                    
+                    <img class="tubes4" src="images/fioles1.png" alt="tubes"/>
+                    <img class="fioleC" src="images/fiole4.png" alt="fiole"/>
+                    <img class="fioleD" src="images/fiole4.png" alt="fiole"/>
+                    <img class="fiole-j" src="images/fiole-zinc.png" alt="Fiole">  
+                    <img class="fiole-k" src="images/fiole-gris.png" alt="Fiole">  
+                    <img class="fiole-l" src="images/fiole-bleu_sombre.png" alt="Fiole">  
+                    <img class="fiole-m" src="images/fiole-cuivre.png" alt="Fiole">  
+
+                    <img class="trepied2" src="images/trepied.png" alt="trepied"/>
+                    <img class="chaise4" src="images/chaise.png" alt="chaise"/> 
+
+                  <!-- <img class="fiolevideA" src="images/fiolesvide.png" alt="Fiole Vide">  -->
+                  <!-- <img class="fiolevideB" src="images/fiolesvide.png" alt="Fiole Vide">  -->
+                  <!-- <img class="fiolevideC" src="images/fiolevide2.png" alt="Fiole Vide">  -->
+                  <!-- <img class="fiolevideD" src="images/fiolevide2.png" alt="Fiole Vide">     -->
+                  <!-- <img class="trepied_fiolevide2" src="images/trepied_fiolevide.png" alt="trepied"/>  -->
+
+                    <!-- <img class="enigme" src="images/enigme.png" alt="apparation de l'énigme"/> -->
+                    <!-- <img class="bulle_interaction4" src="images/bulle_interaction4.png" alt="discution"/>  -->
+                    <!-- <img class="gameover2" src="images/gameover2.png" alt="perdu"/>  -->
+
+             </section>
+    <script src="script.js"></script>
+</body>
+</html>
