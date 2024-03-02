@@ -56,9 +56,9 @@
                         
                      <!-- l'écran et d'affichage du pc -->
                      <div>
-                        <!-- <img class="pc" src="images/pc.png" alt="pc fixe poser sur le bureau est éteint"/> -->
+                        <!-- <img id="ordinateur" src="images/pc_eteint.png" alt="pc fixe poser sur le bureau est éteint"/> -->
                         <!-- <img class="pc" src="images/pc2.png" alt="pc fixe poser sur le bureau est commence à allumer"/> -->
-                        <!-- <img class="pc" src="images/pc3.png" alt="le pc affiche le mot de passe"/> -->
+                        <!-- <img id="motDePasseInput" src="images/pc_password.png" alt="le pc affiche le mot de passe"/> -->
                         <!-- <img class="pc" src="images/pc6.png" alt="pc fixe affiche le bureau avec 2 dossiers et une corbeille"/> -->
                         <!-- <img class="photo" src="images/photo.png" alt="une photo du livre"/> --> 
                         <!-- <img class="photo2" src="images/photo2.png" alt="une photo des fioles"/>  --> 
@@ -73,7 +73,18 @@
                         <img class="papier4" src="images/papier4.png" alt="un document administrative"/>
                         <img class="papier5" src="images/papier5.png" alt="un document administrative"/>
 
-                     </div>                        
+                     </div> 
+
+                        <div id="ordinateur" class="pc-eteint" onclick="allumerOrdinateur()">
+                        <img id="imageOrdinateur" src= "images/pc_eteint.png" alt="Ordinateur éteint">
+                        <input type="text" id="motDePasseInput" class="mot-de-passe-input" placeholder="Entrez le mot de passe" style="display: none;" onkeypress="verifierMotDePasse(event)">
+                        
+                      </div>
+
+                       <script src="scriptessai.js" > 
+
+                      </script>
+ 
             </section>
 
          <footer></footer>
