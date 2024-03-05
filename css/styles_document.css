@@ -180,3 +180,37 @@
     left: 500px;
     z-index: 2;
 }
+
+.LivreDeCouvertureCoeur{
+    position: absolute;
+    width: 250px;
+    height: 370px;
+    bottom: 110px;
+    left: 350px;
+    z-index: 3;    
+}
+
+.mode_emploi{
+    position: absolute;
+    width: 570px;
+    height: 390px;
+    bottom: 110px;
+    left: 220px;
+    z-index: 3;
+}
+
+#mot-de-passe-input {
+    position: relative; 
+    bottom: 10px;
+    left: 10px;
+    margin: 30px;
+    width: 280px; /* Dimension ajustée */
+    /* display: block; */
+    border: 2mm ridge rgba(39, 87, 218, 0.6);
+    color: rgb(60, 157, 255);
+    text-align: center;
+    font-size: 30px;
+    z-index: 3;
+
+}
+

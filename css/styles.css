@@ -159,7 +159,7 @@ h1{
     z-index: 3; 
 }
 
-.charbon{
+.carbone{
     position: absolute;
     width: 43px;
     height: 23px;
@@ -333,6 +333,42 @@ h1{
     bottom: 195px; 
 }
 
+.adn{
+    position: absolute;
+    width: 15px;
+    height: 25px;
+    z-index: 3;
+    left: 825px;
+    bottom: 257px; 
+}
+
+.dossier1{
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    z-index: 3;
+    left: 780px;
+    bottom: 257px; 
+}
+
+.dossier2{
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    z-index: 3;
+    left: 818px;
+    bottom: 222px; 
+}
+
+.adn2{
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    z-index: 3;
+    left: 778px;
+    bottom: 222px;     
+}
+
 /* piece3 */
 
 .tableau3{
@@ -434,7 +470,6 @@ h1{
     bottom: 189px;
     left: 204px;
     z-index: 2;
-
 }
 
 
@@ -466,7 +501,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-a{
+.fiole_eau{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -475,7 +510,7 @@ h1{
     z-index: 2;    
 }
 
-.fiole-b{
+.fiole_chrome{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -484,7 +519,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-c{
+.fiole_fer{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -493,7 +528,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-d{
+.fiole_cuivre{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -502,7 +537,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-e{
+.fiole_carbone{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -511,7 +546,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-f{
+.fiole_eau2{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -520,7 +555,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-g{
+.fiole_fer2{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -529,16 +564,25 @@ h1{
     z-index: 2;
 }
 
-.fiole-h{
+.fiole_zinc{
     position: absolute;
     width: 17px;
     height: 18px;
     bottom: 189px;
     left: 385px; 
+    z-index: 4;
+}
+
+.fiole_chrome2{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 189px;
+    left: 355px; 
     z-index: 2;
 }
 
-.fiole-i{
+.fiole-laiton{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -668,26 +712,26 @@ h1{
     z-index: 2;
 }
 
-.fioleC{
+.fiole_chrome3{
     position: absolute;
-    width: 26px;
-    height: 34px;
+    width: 17px;
+    height: 18px;
     bottom: 204px;
     left: 780px; 
     z-index: 2;
 }
 
 
-.fioleD{
+.fiole_zinc2{
     position: absolute;
-    width: 20px;
-    height: 26px;
+    width: 17px;
+    height: 18px;
     bottom: 204px;
     left: 810px; 
     z-index: 2;
 }
 
-.fiole-j{
+.fiole_fer3{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -696,7 +740,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-k{
+.fiole_cuivre3{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -705,7 +749,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-l{
+.fiole_carbone2{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -714,7 +758,7 @@ h1{
     z-index: 2;
 }
 
-.fiole-m{
+.fiole_zinc3{
     position: absolute;
     width: 17px;
     height: 18px;
@@ -722,6 +766,25 @@ h1{
     left: 570px; 
     z-index: 2;
 }
+
+.fiole_eau3{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 204px;
+    left: 802px; 
+    z-index: 3;    
+}
+
+.fiole_carbone3{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 204px;
+    left: 832px; 
+    z-index: 3;    
+}
+
 
 .trepied2{
     position: absolute;

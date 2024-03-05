@@ -11,7 +11,7 @@ function allumerOrdinateur() {
 
 function verifierMotDePasse(event) {
     if (event.key === 'Enter') {
-        const motDePasse = 'BANANA';
+        const motDePasse = 'POWER';
         const saisie = document.getElementById('motDePasseInput').value.toUpperCase();
         if (saisie === motDePasse) {
             ouvrirDossiers();
