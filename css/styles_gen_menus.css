@@ -81,39 +81,6 @@
     font-family:monospace;
 }
 
-/*Game-Over*/
-
-.gameover{
-    width: 670px;
-    height: 203px;
-    position: absolute;
-    left: 285px;
-    padding-top: 180px;
-}
-
-.gameover2{
-    width: 670px;
-    height: 203px;
-    position: absolute;
-    left: 295px;
-    padding-top: 180px;
-}
-
-.gameover3{
-    width: 670px;
-    height: 203px;
-    position: absolute;
-    left: 285px;
-    padding-top: 180px;
-}
-
-.gameover4{
-    width: 670px;
-    height: 203px;
-    position: absolute;
-    left: 285px;
-    padding-top: 180px;
-}
 
 /*Bulles d'interaction*/
 

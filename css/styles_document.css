@@ -109,11 +109,11 @@
 
 .enveloppe{
     position: absolute;
-    width: 45px;
-    height: 30px;
+    width: 64px;
+    height: 29px;
     z-index: 3;
-    left: 455px;
-    top: 160px;
+    left: 446px;
+    top: 164px;
 }
 
 .cle{
@@ -121,10 +121,10 @@
     width: 6px;
     height: 10px;
     z-index: 4; 
-    bottom: 190px;
-    left: 40px;
+    bottom: 206px;
+    left: 425px;
     transform:rotate(90deg);
-    z-index: 1;
+    z-index: 2;
 }
 
 .classeurA{
@@ -214,3 +214,40 @@
 
 }
 
+p{
+    position: absolute;
+    width: 920px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    top: 80px;
+    left:4px;
+    padding-bottom: 10px;
+}
+
+
+.fondBleu{
+  position: absolute;
+  width: 900px;
+  height: 250px;
+  top: 230px;
+  left:310px;
+  background-color: #5360A9;
+  border-color: #293376;
+  border-radius: 64px;
+}
+
+.fondBlanc{
+    position: absolute;
+    width: 200px;
+    height: 60px;   
+    left: 665px;
+    top: 200px;
+    z-index: 2;
+    background-color: aliceblue;
+    color: #5360A9;
+    text-align: center;
+    border-color: #293376;
+    border-radius: 56px;
+
+}
