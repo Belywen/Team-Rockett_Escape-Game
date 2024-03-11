@@ -1,5 +1,5 @@
 /*Changements de page 
-    à partir de la page 1 : gauche -> page 2 et droite -> page 4 */
+    à partir de la page 3 : gauche -> page 2 et droite -> page 4 */
 
 
 
