@@ -14,8 +14,7 @@
             
             <script src="js/script.js" defer></script>
             <script src="js/script_dessin_perso.js" defer></script>
-            <script src="js/script_move_left.js" defer></script>
-            <script src="js/script_move_right.js" defer></script>
+            <script src="js/script_move.js" defer></script>
             <script src="js/script_move_p3.js" defer></script>
          </header>
 
@@ -27,6 +26,11 @@
 
          
          <footer></footer>
+         <script>
+            window.addEventListener('beforeunload', function() {
+                localStorage.setItem('lastPage', window.location.pathname)
+            })
+        </script>
 
       </body>
 </html>

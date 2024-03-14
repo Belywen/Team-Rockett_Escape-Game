@@ -7,7 +7,7 @@ function movePersoRight() {
     isArrowKeyPressed = true //Touche pressée
     isPersoDroite = true //Direction d'Perso
     prevX = x
-    x += 20 
+    x += 20
     // Vérifie si le personnage est sorti du canvas par la droite
     if (x > canvas.width) {
         // Met à jour l'URL avec l'information sur la dernière page visitée

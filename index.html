@@ -16,10 +16,8 @@
             
             <script src="js/script.js" defer></script>
             <script src="js/script_dessin_perso.js" defer></script>
-            <script src="js/script_move_right.js" defer></script>        
-            <script src="js/script_move_p1.js" defer></script>
-            
-
+            <script src="js/script_move.js" defer></script>  
+            <script src="js/script_move_p1.js" defer></script> 
                         
          </header>
 
@@ -29,24 +27,7 @@
             <img class="tableau1" src="images/tableau5.png" alt="Tableau accroché au mur"/>
             <img class="etagere" src="images/etagere.png" alt="Etagère contenant des outils d'instruments de sciences"/> 
 
-         <!-- Objets étagère -->
          
-         <!-- Etage 1 -->
-         <section class="container-etagere1" alt="Première rangée d'instruments">
-            <img class="microscope" src="images/microscope.png" alt="Microscope posé sur l'étagère"/>                 
-            <img class="fiole15" src="images/fiole.png" alt="Fiole rouge posée sur l'étagère à côté du microscope"/>  
-            <img class="fiole16" src="images/fiole.png" alt="Fiole posée sur l'étagère à côté de la première fiole rouge"/>     
-            <img class="livres6" src="images/livres.png" alt="Livres posés sur l'étagère à côté des 2 fioles rouge"/>  
-         </section> 
-         
-         <!-- Etage 2 -->
-         <section class="container-etagere2" alt="Deuxième rangée d'instruments">
-            <img class="tubes" src="images/fioles1.png" alt="Tubes posés sur l'étagère"/>
-            <img class="fiole12" src="images/fiole4.png" alt="Fiole violette posée sur l'étagère à côté des tubes "/>        
-            <img class="fiole13" src="images/fiole4.png" alt="Fiole posée sur l'étagère à côté de la première fiole violette"/>
-            <img class="tubes2" src="images/fioles1.png" alt="Tubes posés sur l'étagère à côte des 2 fioles violette"/>    
-         </section>
-
          <!-- Mobilier avec pc portable -->
          <img class="chaise1" src="images/chaise5.png" alt="Chaise nous faisant face accompagnant le bureau"/>
          <img class="table" src="images/table.png" alt="Bureau situé à gauche de l'écran"/>
@@ -61,6 +42,11 @@
 
          
          <footer></footer>
+         <script>
+            window.addEventListener('beforeunload', function() {
+                localStorage.setItem('lastPage', window.location.pathname)
+            })
+        </script>
 
       </body>
 </html>

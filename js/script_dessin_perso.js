@@ -8,7 +8,7 @@ persoImage.onload = function () {
     drawPerso();
 }
 
-/*Personnage qui marche vers la droite n1*/
+//Personnage qui marche vers la droite n1
 function persoDroite1() {
     let sx = 1
     let sy = 3
@@ -20,7 +20,7 @@ function persoDroite1() {
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
 
-/*Personnage qui marche vers la droite n2*/
+//Personnage qui marche vers la droite n2
 function persoDroite2() {
     let sx = 77
     let sy = 1
@@ -32,7 +32,7 @@ function persoDroite2() {
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
 
-/*Personnage qui marche vers la gauche n1*/
+//Personnage qui marche vers la gauche n1
 function persoGauche1() {
     let sx = 584 
     let sy = 289
@@ -44,7 +44,7 @@ function persoGauche1() {
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
 
-/*Personnage qui marche vers la gauche n2*/
+//Personnage qui marche vers la gauche n2
 function persoGauche2() {
     let sx = 513
     let sy = 286
@@ -56,7 +56,7 @@ function persoGauche2() {
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
 
-/*Personnage face*/
+//Personnage face
 function persoFace() {  
     // Dessine seulement la partie de l'image délimitée par les coordonnées (sx, sy) et les dimensions (sWidth, sHeight)
     let sx = 136.144 // Coordonnée x du coin supérieur gauche de la région à extraire
