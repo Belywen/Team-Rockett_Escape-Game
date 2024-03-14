@@ -1,13 +1,3 @@
-/* ecran */
-.pc{
-    position: absolute;
-    width: 650px;
-    height: 400px; 
-    left: 450px;
-    top: 200px;   
-    z-index: 4;
-}
-
 /*Menu*/
 
 .menu{
@@ -110,53 +100,3 @@
     bottom: 305px;
     z-index: 3;
 }
-
-.bulle_interaction4{
-    position: absolute;
-    width: 910px;
-    height: 110px;
-    left: 30px;
-    top: 55px;
-    z-index: 3;
-}
-
-#ordinateur, #imageOrdinateur { 
-    cursor: pointer;
-    position: relative;
-    cursor: crosshair;
-    position: absolute;
-    width: 650px;
-    height: 400px; 
-    left: 80px;
-    top: 40px;   
-    z-index: 4;
-}
-
-/* #imageOrdinateur {
-    cursor: pointer;
-    position: relative;
-    cursor: crosshair;
-    position: absolute;
-    width: 650px;
-    height: 400px; 
-    left: 150px;
-    top: 90px;   
-    z-index: 4; 
-} */
-
-
-
-
-
-/* .mot-de-passe-input {
-    position: absolute; 
-    bottom: 10px;
-    left: 10px;
-    width: 280px; /* Dimension ajustée */
-    /* display: none;
-    border: 2mm ridge rgba(39, 87, 218, 0.6);
-    color: rgb(60, 157, 255);
-    text-align: center;
-    font-size: 30px; */
-
-/* } */

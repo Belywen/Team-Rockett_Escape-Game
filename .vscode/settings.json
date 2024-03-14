@@ -3,5 +3,6 @@
         "editor.defaultFoldingRangeProvider": null,
         "editor.defaultFormatter": null
     },
-    "editor.defaultFoldingRangeProvider": ""
+    "editor.defaultFoldingRangeProvider": "",
+    "liveServer.settings.port": 5501
 }

@@ -1,0 +1,85 @@
+p{
+    position: absolute;
+    width: 920px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    top: 80px;
+    left:4px;
+    padding-bottom: 10px;
+}
+
+
+#fondBleu{
+  position: relative;
+  width: 900px;
+  height: 300px;
+  top: 230px;
+  left:310px;
+  border: solid;
+  background-color: #5360A9;
+  border-color: #293376;
+  border-radius: 64px;
+}
+
+#fondBlanc{
+  position: absolute;
+  width: 200px;
+  height: 60px;   
+  left: 665px;
+  top: 200px;
+  z-index: 2;
+  background-color: aliceblue;
+  color: #5360A9;
+  text-align: center;
+  border-color:#293376 ;
+  border:solid;
+  border-radius: 56px;
+
+}
+
+#flex-container{
+  position: absolute;
+  width: 400px;
+  height: 120px;
+  left: 622px;
+  bottom: 204px;
+  color: white;
+}
+
+#reponse{
+  position: absolute;
+  width: 130px;
+  height: 20px;
+  color: white;
+  background-color: #5360A9;
+  left: 705px;
+  bottom: 235px;  
+}
+
+#barreeCuivre{
+  position: absolute;
+  width: 130px;
+  height: 20px;
+  color: white;
+  left: 646px;
+  top: 420px;  
+}
+
+#barreeLaiton{
+  position: absolute;
+  width: 130px;
+  height: 20px;
+  color: white;
+  left: 774px;
+  top: 420px;  
+}
+
+#barreeBronze{
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  color: white;
+  left: 899px;
+  top: 420px;  
+}

@@ -1,0 +1,191 @@
+/* piece2 */
+
+.ascenseur{
+    position: absolute;
+    width: 150px;
+    height: 385px;
+    left: 54px;
+    bottom:20px;
+    z-index: 2;
+}
+
+.table3{
+    position: absolute;
+    width: 384px;
+    height: 167px;
+    bottom: 30px;
+    left: 480px;
+    z-index: 2;
+}
+
+.tableauAdn{
+    position: absolute;
+    width: 230px;
+    height: 120px;
+    z-index: 3;
+    left: 360px;
+    top: 120px;
+}
+
+.tableau_retourner{
+    position: absolute;
+    width: 230px;
+    height: 120px;
+    z-index: 3;
+    left: 360px;
+    top: 120px;
+}
+
+.enveloppe{
+    position: absolute;
+    width: 64px;
+    height: 29px;
+    z-index: 3;
+    left: 446px;
+    top: 164px;
+}
+
+.miroir{
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    z-index: 3;
+    left: 660px;
+    top: 120px; 
+}
+
+.coffreSerrure{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    left: 760px;
+    bottom: 195px; 
+}
+
+#coffreOuvert{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    left: 760px;
+    bottom: 195px; 
+}
+
+.adn{
+    position: absolute;
+    width: 15px;
+    height: 25px;
+    z-index: 3;
+    left: 825px;
+    bottom: 257px; 
+}
+
+.dossier1{
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    z-index: 3;
+    left: 780px;
+    bottom: 257px; 
+}
+
+.dossier2{
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    z-index: 3;
+    left: 818px;
+    bottom: 222px; 
+}
+
+.coffre-feuilles{
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    z-index: 3;
+    left: 778px;
+    bottom: 222px;     
+}
+
+.ascenseur_ouvert{
+    position: absolute;
+    width: 250px;
+    height: 385px;
+    left: 54px;
+    bottom:20px;
+    z-index: 2;
+}
+
+.classeurA{
+    position: absolute;
+    width: 56px;
+    height: 40px;
+    bottom: 190px;
+    left: 500px;
+    z-index: 2;
+}
+
+.classeurB{
+    position: absolute;
+    width: 56px;
+    height: 60px;
+    bottom: 190px;
+    left: 555px;
+    z-index: 2;
+}
+
+.classeurC{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    bottom: 190px;
+    left: 625px;
+    z-index: 2;
+}
+
+.classeurD{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    bottom: 205px;
+    left: 625px;
+    z-index: 2;
+}
+
+.classeurE{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    bottom: 219px;
+    left: 625px;
+    z-index: 2;
+}
+
+.miroirIndicePapier{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    z-index: 4;
+    top: 60px;
+    Left: 340px;    
+}
+
+
+.bulle_interactionB{
+    position: absolute;
+    width: 910px;
+    height: 110px;
+    left: 30px;
+    top: 55px;
+    z-index: 3;
+}
+
+.gameoverB{
+    width: 840px;
+    height: 203px;
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    z-index: 3;
+}

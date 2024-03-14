@@ -1,0 +1,337 @@
+/* piece3 */
+
+.tableau3{
+    position: absolute;
+    width: 230px;
+    height: 120px;
+    z-index: 3;
+    left: 360px;
+    top: 120px;
+
+}
+
+.container-bureau{
+    position: relative;
+    width: 430px;
+    height: 190px;
+    left: 42px;
+    top: 353px;
+    z-index: 3;
+}
+
+.bureau1{
+    position: absolute;
+    width: 497px;
+    height: 209px;
+    left: 190px;
+    bottom: 0px;
+    z-index: 2;
+} 
+
+.microscope{
+    position: absolute;    
+    width: 44px;
+    height: 60px;
+    bottom: 206px;
+    left:200px;
+    z-index: 2;
+}
+
+.fiole_zinc{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 206px;
+    left: 199px; 
+    z-index: 4;
+}
+
+.fioleViolet{
+    position: absolute;
+    width: 19px;
+    height: 23px;
+    bottom: 206px;
+    left: 224px;
+    z-index: 2;
+}
+
+.fioleViolet2{
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    bottom: 206px;
+    left: 239px;
+    z-index: 2;
+
+}
+
+.fiole_carbone{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 206px;
+    left: 275px; 
+    z-index: 2;
+}
+
+/* flacons */
+
+.flacon{
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    bottom: 206px;
+    left: 310px;
+    z-index: 2;
+}
+
+.flacon2{
+    position: absolute;
+    width: 12px;
+    height: 18px;
+    bottom: 206px;
+    left: 320px;
+    z-index: 2;
+}
+
+.flacon3{
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    bottom: 206px;
+    left: 350px;
+    z-index: 2;
+}
+
+.flacon4{
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    bottom: 206px;
+    left: 330px;
+    z-index: 2;
+
+}
+
+.fiole_cuivre{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 206px;
+    left: 370px; 
+    z-index: 2;
+}
+
+.fiolevide{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 206px;
+    left: 420px; 
+    z-index: 2;
+}
+
+.fiole_eau{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 206px;
+    left: 452px; 
+    z-index: 2;    
+}
+
+.flacon5{
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    bottom: 206px;
+    left: 490px;
+    z-index: 2;
+}
+
+
+.flacon6{
+    position: absolute;
+    width: 11px;
+    height: 18px;
+    bottom: 206px;
+    left: 500px;
+    z-index: 2;
+}
+
+.flacon7{
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    bottom: 206px;
+    left: 530px;
+    z-index: 2;
+}
+
+.tubes{
+    position: absolute;
+    width: 45px;
+    height: 28px;
+    bottom: 206px;
+    left: 550px;
+    z-index: 2;
+
+}
+
+.fiole_chrome{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 206px;
+    left: 600px; 
+    z-index: 2;
+}
+
+.fiole_fer{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 206px;
+    left: 612px; 
+    z-index: 2;
+}
+
+
+.fiole-laiton{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    bottom: 206px;
+    left: 355px; 
+    z-index: 2;
+}
+
+.cle{
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    z-index: 4; 
+    bottom: 206px;
+    left: 425px;
+    transform:rotate(90deg);
+    z-index: 2;
+}
+
+.trepied{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: 206px;
+    left: 638px; 
+    z-index: 2;
+
+}
+
+.chaise3{
+    position: absolute;
+    width: 100px;
+    height: 218px;
+    bottom: 5px;
+    left: 730px; 
+    z-index: 2;
+
+}
+
+.porteManteau{
+    position: absolute;
+    width: 120px;
+    height: 448px;
+    bottom: 6px;
+    left: 10px; 
+    z-index: 2;    
+}
+
+.tiroirOuvertGauche{
+    position: absolute;
+    width: 505px;
+    height: 209px;
+    left: 182px;
+    bottom: 0px;
+    z-index: 3;
+} 
+
+.tiroirOuvertDroite{
+    position: absolute;
+    width: 505px;
+    height: 209px;
+    left: 190px;
+    bottom: 0px;
+    z-index: 3;
+} 
+
+.lamelles{
+    position: absolute;
+    width: 35px;
+    height: 13px;
+    bottom: 146px;
+    left: 605px; 
+    z-index: 4;
+}
+
+.lamelles2{
+    position: absolute;
+    width: 35px;
+    height: 13px;
+    bottom: 146px;
+    left: 555px; 
+    z-index: 4;
+}
+
+.lamelles3{
+    position: absolute;
+    width: 35px;
+    height: 13px;
+    bottom: 135px;
+    left: 575px; 
+    z-index: 4;
+}
+
+.enigme{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    z-index: 4;
+    top: 30px;
+    Left: 70px;    
+}
+
+.bulle_interactionC{
+    position: absolute;
+    width: 910px;
+    height: 110px;
+    left: -20px;
+    bottom: 375px;
+    z-index: 4;
+}
+
+.gameoverC{
+    width: 840px;
+    height: 203px;
+    position: absolute;
+    bottom: 170px;
+    left: 50px;
+    z-index: 3;
+}
+
+/* au cas où */
+
+/* .armoirOuvert{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left: 233px;
+} 
+
+.armoirOuvert{
+    position: absolute;
+    height: 90px;
+    width: 206px;
+    bottom: 85px;
+    left:443px;
+}  */

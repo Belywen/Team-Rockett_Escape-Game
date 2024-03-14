@@ -40,3 +40,6 @@ function afficherEnigme() {
         }, 3000); // 2 secondes
     }
 }
+
+
+

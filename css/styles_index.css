@@ -1,0 +1,487 @@
+/*Styles généraux*/
+
+.canvas-container {
+    position: relative;
+    border: 3px solid black;
+    width: 950.8px;
+    height: 558.8px;
+    top: 50px;
+    left: 300px;
+}
+  
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+/* code de la pièce 1 (index.html)*/
+.mur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour ajuster l'image à la taille de son conteneur */
+    z-index: 2;
+}
+
+
+/* 1er étagère */
+
+.container-etagere1 {
+    position: relative;
+    width: 80px;
+    height: 200px;
+    top: 100px;
+    left: 406px;
+    z-index: 3;
+}
+
+.etagereA{
+    position: absolute;
+    width: 80px;
+    height: 15px;    
+    left: 0px;
+    top: 35px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
+}
+
+.etagereB{
+    position: absolute;
+    width: 80px;
+    height: 15px;    
+    left: 0px;
+    top: 105px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
+}
+
+
+.etagereC{
+    position: absolute;
+    width: 80px;
+    height: 15px;    
+    left: 0px;
+    top: 175px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
+}
+
+.container-etagere2 {
+    position: relative;
+    width: 280px;
+    height: 200px;
+    bottom: 100px;
+    left: 506px;
+    z-index: 3;
+}
+.etagereD{
+    position: absolute;
+    width: 80px;
+    height: 15px;    
+    left: 20px;
+    top: 30px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
+}
+
+.etagereE{
+    position: absolute;
+    width: 170px;
+    height: 15px;    
+    left: 60px;
+    top: 100px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
+}
+
+.etagereF{
+    position: absolute;
+    width: 80px;
+    height: 15px;    
+    left: 180px;
+    top: 170px;
+    z-index: 3; /* Assurez-vous que le z-index est supérieur à celui du mur */
+}
+
+/* Objet des étagère */
+
+.plante1{
+    position: absolute;
+    width: 35px;
+    height: 43px;
+    left: 430px;
+    bottom: 423px;
+    z-index: 3; 
+}
+
+
+.globe{
+    position: absolute;
+    width: 35px;
+    height: 43px;
+    left: 430px;
+    bottom: 353px;
+    z-index: 3; 
+}
+
+.plante_carnivore{
+    position: absolute;
+    width: 35px;
+    height: 43px;
+    left: 430px;
+    bottom: 283px;
+    z-index: 3; 
+}
+
+.carbone{
+    position: absolute;
+    width: 43px;
+    height: 23px;
+    left: 550px;
+    bottom: 423px;
+    z-index: 3; 
+}
+
+.atome{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 572px;
+    bottom: 358px;
+    z-index: 3; 
+}
+
+.lunette{
+    position: absolute;
+    width: 43px;
+    height: 23px;
+    left: 628px;
+    bottom: 358px;
+    z-index: 3; 
+}
+
+.masque{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 686px;
+    bottom: 358px;
+    z-index: 3;
+}
+
+.plante2{
+    position: absolute;
+    width: 35px;
+    height: 43px;
+    left: 710px;
+    bottom: 283px;
+    z-index: 3; 
+}
+
+.etagereG{
+    position: absolute;
+    width: 90px;
+    height: 15px;    
+    left: 130px;
+    top: 205px;
+    z-index: 3;    
+}
+
+.cage{
+    position: absolute;
+    width: 70px;
+    height: 55px;  
+    left: 140px;
+    top: 150px;
+    z-index: 3;
+}
+
+.souris{
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    left: 192px;
+    bottom: 364px;
+    z-index: 3;
+}
+
+.maisonSouris{
+    position: absolute;
+    width: 18px;
+    height: 13px;
+    left: 144px;
+    top: 161px;
+    z-index: 4;
+}
+
+/* Mobilier avec pc portable */
+
+.chaise1{
+    position: absolute;
+    width: 108px;
+    height: 218px;
+    bottom: 50px;
+    left: 235px; 
+    z-index: 3;
+
+} 
+
+
+.table{
+    position: absolute;
+    width: 206px;
+    height: 163px;
+    bottom: 50px;
+    left: 169px;
+    z-index: 3;
+
+}
+
+
+.ordinateur{
+    position: absolute;
+    width: 125px;
+    height: 43px;
+    left: 180px;
+    bottom: 213px;
+    z-index: 3;
+
+}
+
+/*Mobilier avec pc fixe */
+
+.chaise2{
+    position: absolute;
+    width: 120px;
+    height: 215px;
+    bottom: 1px;
+    left: 667px; 
+    z-index: 3;
+}
+
+
+.table2{
+    position: absolute;
+    width: 290px;
+    height: 140px;
+    bottom: 1px;
+    left: 430px;
+    z-index: 3;
+
+}
+
+.ordinateur2{
+    position: absolute;
+    width: 108px;
+    height: 64px;
+    left: 580px;
+    bottom: 138px;
+    z-index: 3;
+}
+
+/* ecran */
+.pc{
+    position: absolute;
+    width: 650px;
+    height: 400px; 
+    left: 80px;
+    top: 40px;   
+    z-index: 4;
+}
+
+.photo{
+    position: absolute;
+    width: 400px;
+    height: 400px; 
+    z-index: 4;
+    top: 90px;
+    Left: 290px;
+}
+
+.photo2{
+    position: absolute;
+    width: 580px;
+    height: 400px; 
+    z-index: 4;
+    top: 90px;
+    Left: 290px;
+}
+
+.bulle_interactionA{
+    position: absolute;
+    width: 910px;
+    height: 110px;
+    left: 30px;
+    top: 55px;
+    z-index: 3;
+}
+
+.gameoverA{
+    width: 840px;
+    height: 203px;
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    z-index: 3;
+}
+
+.enigme{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    z-index: 4;
+    top: 30px;
+    Left: 70px;    
+}
+
+.document1{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    z-index: 3;
+    left: 450px;
+    bottom: 140px;
+}
+
+.document2{
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    z-index: 3;
+    left: 450px;
+    bottom: 170px;
+}
+
+.papier{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    z-index: 3;
+    left: 520px;
+    bottom: 134px;
+}
+
+.papier1{
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    z-index: 3;
+    left: 310px;
+    bottom: 210px;
+}
+
+.papier2{
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    z-index: 3;
+    left: 310px;
+    bottom: 214px;
+}
+
+.papier3{
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    z-index: 3;
+    left: 310px;
+    bottom: 219px;
+}
+
+.papier4{
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    z-index: 3;
+    left: 310px;
+    bottom: 222px;
+}
+
+.papier5{
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    z-index: 3;
+    left: 310px;
+    bottom: 225px;
+}
+
+.morceauDePapier2{
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    z-index: 3;
+    top: 169px;
+    left: 150px;
+    z-index: 3; 
+}
+
+.indiceSouris{
+    width: 600px;
+    height: 193px;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    z-index: 3;
+}
+
+#ordinateur, #imageOrdinateur { 
+    cursor: pointer;
+    position: relative;
+    cursor: crosshair;
+    position: absolute;
+    width: 650px;
+    height: 400px; 
+    left: 80px;
+    top: 40px;   
+    z-index: 4;
+}
+
+/* #imageOrdinateur {
+    cursor: pointer;
+    position: relative;
+    cursor: crosshair;
+    position: absolute;
+    width: 650px;
+    height: 400px; 
+    left: 150px;
+    top: 90px;   
+    z-index: 4; 
+} */
+
+/* .mot-de-passe-input {
+    position: absolute; 
+    bottom: 10px;
+    left: 10px;
+    width: 280px; /* Dimension ajustée */
+    /* display: none;
+    border: 2mm ridge rgba(39, 87, 218, 0.6);
+    color: rgb(60, 157, 255);
+    text-align: center;
+    font-size: 30px; */
+
+/* } */
+
+#mot-de-passe-input {
+    position: relative; 
+    bottom: 10px;
+    left: 10px;
+    margin: 30px;
+    width: 280px; /* Dimension ajustée */
+    /* display: block; */
+    border: 2mm ridge rgba(39, 87, 218, 0.6);
+    color: rgb(60, 157, 255);
+    text-align: center;
+    font-size: 30px;
+    z-index: 3;
+
+}
