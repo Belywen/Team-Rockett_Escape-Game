@@ -1,0 +1,197 @@
+/*Styles généraux*/
+
+.canvas-container {
+    position: relative;
+    border: 3px solid black;
+    width: 950.8px;
+    height: 558.8px;
+    top: 50px;
+    left: 300px;
+}
+  
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+/* code de la pièce 1 (index.html)*/
+.mur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour ajuster l'image à la taille de son conteneur */
+    z-index: 2;
+}
+
+/* piece4 */
+
+.bibliotheque{
+    position: absolute;
+    width: 900px;
+    height: 390px;
+    z-index: 2;
+    bottom: 60px;
+    left:0px;
+} 
+
+
+.fauteuil{
+    position: absolute;
+    width: 149px;
+    height: 200px;
+    z-index: 2;
+    bottom: 30px;
+    left: 720px;
+    z-index: 3;
+}
+
+.livre-coeur{
+    position: absolute;
+    width: 20px;
+    height: 62px;
+    z-index: 2;
+    top: 132px;
+    left: 208px;
+}
+
+.livre-cadenas{
+    position: absolute;
+    width: 13px;
+    height: 60px;
+    z-index: 2;
+    top: 210px;
+    left: 383px; 
+}
+
+.livreVert{
+    position: absolute;
+    width: 18px;
+    height: 62px;
+    z-index: 2;
+    bottom: 133px;
+    left: 140px; 
+}
+
+.livreOvaleOrange{
+    position: absolute;
+    width: 14px;
+    height: 62px;
+    z-index: 2;
+    bottom: 287px;
+    left: 437px; 
+}
+
+.livreOvaleBleu{
+    position: absolute;
+    width: 15px;
+    height: 62px;
+    z-index: 3;
+    top: 363px;
+    left: 454px; 
+}
+
+.morceauDePapier{
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    z-index: 3;
+    bottom: 105px;
+    right: 175px;
+    z-index: 3; 
+}
+
+.codeCadenas{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    z-index: 3;
+    bottom: 185px;
+    left: 320px;
+    z-index: 3; 
+}
+
+.livreCadenasCode{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    bottom: 50px;
+    left: 220px;
+    z-index: 3;    
+}
+
+.livreCadenasCle{
+    position: absolute;
+    width: 450px;
+    height: 370px;
+    bottom: 80px;
+    left: 220px;
+    z-index: 3;    
+}
+
+.livreCadenasSansCle{
+    position: absolute;
+    width: 450px;
+    height: 370px;
+    bottom: 80px;
+    left: 220px;
+    z-index: 3;    
+}
+
+.LivreDeCouvertureCoeur{
+    position: absolute;
+    width: 250px;
+    height: 370px;
+    bottom: 110px;
+    left: 350px;
+    z-index: 3;    
+}
+
+.mode_emploi{
+    position: absolute;
+    width: 570px;
+    height: 390px;
+    bottom: 110px;
+    left: 220px;
+    z-index: 3;
+}
+
+.enigme{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    z-index: 4;
+    top: 30px;
+    Left: 70px;    
+}
+
+.bulle_interactionD{
+    position: absolute;
+    width: 910px;
+    height: 110px;
+    left: 30px;
+    top: 55px;
+    z-index: 4;
+}
+
+.gameoverD{
+    width: 840px;
+    height: 203px;
+    position: absolute;
+    bottom: 220px;
+    left: 50px;
+    z-index: 3;
+}

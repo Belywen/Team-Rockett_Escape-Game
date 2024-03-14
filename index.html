@@ -3,53 +3,88 @@
       <head>
          <meta charset="UTF-8">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Premier niveau</title>
-         <link rel="stylesheet" href="css/styles.css">
+         <title>Escape Game</title>
+         <link rel="stylesheet" href="css/styles_index.css">
          <!--<link rel="stylesheet" href="css/styles_lvl01.css">-->
       </head>
-
       <body>
          <header>
-            <title>Escape Game</title>
-            
-            <script src="js/script.js"></script>
+             <h1>Escape Game</h1>  <!--On a pas encore decider, si je dois mettre le nom du jeu ou laisser le titre avec des modification -->
          </header>
+            <section class="canvas-container">
+                <canvas id="myCanvas"></canvas>
+                  <img class="mur" src="images/piece1.png" alt="mur de couleur violet foncé et une couleur violet claire"/>
+                  <div class="container-etagere1">
+                        <img class="etagereA" src="images/etagere2.png" alt="une étagère fixer au mur en haut à premier"/>
+                        <img class="etagereB" src="images/etagere2.png" alt="une étagère fixer au mur en haut à deuxieme"/>
+                        <img class="etagereC" src="images/etagere2.png" alt="une étagère fixer au mur en haut à troisième"/>
+                     </div>
+                     <div class="container-etagere2">
+                        <img class="etagereD" src="images/etagere2.png" alt="une étagère fixer au mur en haut au deuxieme rang à droite"/>
+                        <img class="etagereE" src="images/etagere2.png" alt="une étagère fixer au mur en haut au deuxieme range au milieu"/>
+                        <img class="etagereF" src="images/etagere2.png" alt="une étagère fixer au mur en haut au troisième rang en bas"/>
+                     </div >
+                         
+               <!-- j'ai lintention de mettre 9 elements sur l'étagère et il ne sont pas encore defini -->
 
-         <section id="canvasContainer" class="canvas-container">
-            <canvas id="myCanvas"></canvas>
-            <img class="mur" src="images/piece1.png" alt="Mur de couleur violet foncé et une couleur violet clair"/>
-            <img class="tableau1" src="images/tableau5.png" alt="Tableau accroché au mur"/>
-            <img class="etagere" src="images/etagere.png" alt="Etagère contenant des outils d'instruments de sciences"/> 
+                  <!-- objet étagère -->
+                        <img class="plante1" src="images/plante1.png" alt="une plante sur le premier étagère"/>
+                        <img class="globe" src="images/globe.png" alt="un globe poser sur le deuxième étagère"/> 
+                        <img class="plante_carnivore" src="images/plante_carnivore.png" alt="une plante carnivore sur le troisième étagère"/> 
+                        <img class="carbone" src="images/carbone.png" alt="un bloc de charbon sur le quatrième l'étagère à côter de la plante"/> 
+                        <img class="atome" src="images/atome.png" alt="une maquette de l'atome sur le cinquieme étagère en bas"/> 
+                        <img class="lunette" src="images/lunette.png" alt="des lunettes au même étagère à côté de l'atome"/>  
+                        <img class="masque" src="images/masque.png" alt="un masque à oxygène à côté du masque à la même étagère"/>  
+                        <img class="plante2" src="images/plante2.png" alt="une plante sur le dernier étagère"/>    
+                        <img class="etagereG" src="images/etagere2.png" alt="une étagère fixer au mur en haut à premier"/>
+                        <img class="cage" src="images/cage.png" alt="une cage de souris"/>  
+                        <img class="souris" src="images/souris.png" alt="une souris"/>
+                        <img class="maisonSouris" src="images/maisonSouris.png" alt="une maison pour la souris"/>
 
-         <!-- Objets étagère -->
-         
-         <!-- Etage 1 -->
-         <section class="container-etagere1" alt="Première rangée d'instruments">
-            <img class="microscope" src="images/microscope.png" alt="Microscope posé sur l'étagère"/>                 
-            <img class="fiole15" src="images/fiole.png" alt="Fiole rouge posée sur l'étagère à côté du microscope"/>  
-            <img class="fiole16" src="images/fiole.png" alt="Fiole posée sur l'étagère à côté de la première fiole rouge"/>     
-            <img class="livres6" src="images/livres.png" alt="Livres posés sur l'étagère à côté des 2 fioles rouge"/>  
-         </section> 
+                     <!-- Mobilier avec pc portable -->
+                        <img class="chaise1" src="images/chaise5.png" alt="chaise pour completer le bureau"/>
+                        <img class="table" src="images/table.png" alt=" un bureau à côté de l'étagère"/>
+                        <img class="ordinateur" src="images/ordinateur.png" alt="le pc portable poser sur le bureau"/>
 
-         <!-- Etage 2 -->
-         <section class="container-etagere2" alt="Deuxième rangée d'instruments">
-            <img class="tubes" src="images/fioles1.png" alt="Tubes posés sur l'étagère"/>
-            <img class="fiole12" src="images/fiole4.png" alt="Fiole violette posée sur l'étagère à côté des tubes "/>        
-            <img class="fiole13" src="images/fiole4.png" alt="Fiole posée sur l'étagère à côté de la première fiole violette"/>
-            <img class="tubes2" src="images/fioles1.png" alt="Tubes posés sur l'étagère à côte des 2 fioles violette"/>    
-         </section>
+                        
+                     <!-- Mobilier avec pc fixe -->
+                        <img class="chaise2" src="images/chaise6.png" alt="chaise d'un autre bureau"/>
+                        <img class="table2" src="images/table2.png" alt=" un Deuxieme bureau à côté dans un coin"/>         
+                        <img class="ordinateur2" src="images/ordinateur2.png" alt="le pc fixe poser sur le bureau"/>
+                        
+                     <!-- l'écran et d'affichage du pc -->
+                     <div>
+                        <!-- <img class="pc" src="images/pc6.png" alt="le pc affiche le bureau avec 2 dossiers et une corbeille"/> -->
+                        <!-- <img class="photo" src="images/photo.png" alt="une photo du livre"/>  -->
+                        <!-- <img class="photo2" src="images/photo2.png" alt="une photo des fioles"/>   -->
+                        <!-- <img class="bulle_interactionA" src="images/bulle_interaction4.png" alt="une bulle de discution pour l'énoncé"/>  -->
+                        <!-- <img class="enigme" src="images/enigme.png" alt="apparation de l'énigme"/> -->
+                        <img class="document1" src="images/document1.png" alt="un document administrative"/>
+                        <img class="document2" src="images/document2.png" alt="un document administrative"/>
+                        <img class="papier" src="images/papier.png" alt="un document administrative"/>
+                        <img class="papier1" src="images/papier1.png" alt="un document administrative"/>
+                        <img class="papier2" src="images/papier2.png" alt="un document administrative"/>
+                        <img class="papier3" src="images/papier3.png" alt="un document administrative"/>
+                        <img class="papier4" src="images/papier4.png" alt="un document administrative"/>
+                        <img class="papier5" src="images/papier5.png" alt="un document administrative"/>
+                        <img class="morceauDePapier2" src="images/boutDePapier.png" alt="un morceau de papier sur le fauteuil">                        
+                        <!-- <img class="indiceSouris" src="images/indiceDeLaSouris.png" alt="un indice"/>                         -->
+                        <!-- <img class="bulle_interactionA" src="images/bulle_interaction4.png" alt="une bulle de discution du narateur"/>  -->
+                        <!-- <img class="gameoverA" src="images/gameover2.png" alt="perdu"/>  -->
 
-         <!-- Mobilier avec pc portable -->
-         <img class="chaise1" src="images/chaise5.png" alt="Chaise nous faisant face accompagnant le bureau"/>
-         <img class="table" src="images/table.png" alt="Bureau situé à gauche de l'écran"/>
-         <img class="ordinateur" src="images/ordinateur.png" alt="Ordinateur portable posé sur le bureau"/>
-            
-         <!-- Mobilier avec pc fixe -->
-         <img class="chaise2" src="images/chaise6.png" alt="Chaise située sur la droite du second bureau"/>
-         <img class="table2" src="images/table2.png" alt="Bureau situé à droite de l'écran"/>         
-         <img class="ordinateur2" src="images/ordinateur2.png" alt="Ordinateur fixe posé sur le second bureau"/>
+                     <!-- </div> 
 
-         </section>
+                        <div id="ordinateur" class="pc-eteint" onclick="allumerOrdinateur()">
+                        <img id="imageOrdinateur" src= "images/pc_eteint.png" alt="Ordinateur éteint">
+                        <input type="text" id="motDePasseInput" class="input-container input" class="mot-de-passe-input" placeholder="Entrez le mot de passe" style="display: none;" onkeypress="verifierMotDePasse(event)">
+                        
+                      </div> -->
+
+                       <script src="scriptessai.js" > 
+
+                      </script>
+ 
+            </section>
 
          <footer></footer>
       </body>
