@@ -33,51 +33,36 @@ function handleKeyPress(event) {
 }
 
 
-let x
-// Récupère la dernière page visitée depuis le localStorage
+// Récupèration de la dernière page visitée depuis le localStorage et de la page actuelle
 const lastVisitedPage = localStorage.getItem('lastPage')
-
-// Détermine la position initiale du personnage en fonction de la dernière page visitée
- //let x = 40  //Valeur par défaut
-
-const currentPage = window.location.pathname.split("/").pop(); // Obtient le nom de la page actuelle
+const currentPage = window.location.pathname.split("/").pop() 
 
 
 if (currentPage === "index.html") {
-    console.log('Last visited page:',lastVisitedPage)
-    console.log("Page actuelle:",currentPage)
- if (lastVisitedPage === "page_4.html") {
+ if (lastVisitedPage === "/page_4.html") {
     x = 40
  } else {
-    x = 890
+    x = 850
  }
 } else if (currentPage === "page_2.html") {
-    console.log('Last visited page:',lastVisitedPage)
-    console.log("Page actuelle:",currentPage)
-    if (lastVisitedPage === "index.html") {
+    if (lastVisitedPage === "/index.html") {
         x = 40
     } else {
-        x = 890
+        x = 850
     }
 } else if (currentPage === "page_3.html") {
-    console.log('Last visited page:',lastVisitedPage)
-    console.log("Page actuelle:",currentPage)
-    if (lastVisitedPage === "page_2.html") {
+    if (lastVisitedPage === "/page_2.html") {
         x = 40
     } else {
-        x = 890
+        x = 850
     }
 } else {
-    console.log('Last visited page:',lastVisitedPage)
-    console.log("Page actuelle:",currentPage)
-    if (lastVisitedPage === "page_3.html") {
+    if (lastVisitedPage === "/page_3.html") {
         x = 40
     } else {
-        x = 890
+        x = 850
     }
 }
-
-console.log('X:', x)
 
 
 

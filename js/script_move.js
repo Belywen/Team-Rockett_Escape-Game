@@ -1,8 +1,7 @@
 //Mouvements du personnage
 
 //Variables pour le personnage
-//let x = 40
-let y = 400
+let y = 220
 let isPersoDroite = true
 let isPersoDroite1 = true
 let isArrowKeyPressed = false

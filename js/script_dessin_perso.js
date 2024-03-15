@@ -63,8 +63,13 @@ function persoFace() {
     let sy = 136.283 // Coordonnée y du coin supérieur gauche de la région à extraire
     let sWidth = 40 // Largeur de la région à extraire
     let sHeight = 147 // Hauteur de la région à extraire
+
+    // Dimensions souhaitées pour le personnage
+    let targetWidth = 90; // Largeur souhaitée
+    let targetHeight = (targetWidth / sWidth) * sHeight; // Calculer la hauteur proportionnellement à la largeur
+
     let dx = x // Coordonnée x où dessiner l'image sur le canevas
     let dy = y // Coordonnée y où dessiner l'image sur le canevas
 
-    ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
+    ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, targetWidth, targetHeight)
 }
