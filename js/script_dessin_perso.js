@@ -68,7 +68,3 @@ function persoFace() {
 
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, sWidth, sHeight)
 }
-
-
-
-

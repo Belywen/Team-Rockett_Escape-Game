@@ -32,85 +32,53 @@ function handleKeyPress(event) {
     }
 }
 
+
+let x
 // Récupère la dernière page visitée depuis le localStorage
-const lastVisitedPage = localStorage.getItem('lastPage');
-console.log('Last visited page:', lastVisitedPage);
+const lastVisitedPage = localStorage.getItem('lastPage')
 
 // Détermine la position initiale du personnage en fonction de la dernière page visitée
-let initialX = 40; // Valeur par défaut
+ //let x = 40  //Valeur par défaut
 
 const currentPage = window.location.pathname.split("/").pop(); // Obtient le nom de la page actuelle
-console.log('Current page:', currentPage);
 
-if (lastVisitedPage === '/index.html') {
-    // Si la dernière page visitée était index.html, le personnage doit être dessiné à gauche
-    initialX = 890;
-    console.log('Setting initial X to 890');
-} else if (lastVisitedPage === '/page_4.html') {
-    // Si la dernière page visitée était page_4.html, et qu'on vient de l'index, le personnage doit être dessiné à gauche
-    if (currentPage === 'index.html') {
-        initialX = 890;
-        console.log('Setting initial X to 890');
+
+if (currentPage === "index.html") {
+    console.log('Last visited page:',lastVisitedPage)
+    console.log("Page actuelle:",currentPage)
+ if (lastVisitedPage === "page_4.html") {
+    x = 40
+ } else {
+    x = 890
+ }
+} else if (currentPage === "page_2.html") {
+    console.log('Last visited page:',lastVisitedPage)
+    console.log("Page actuelle:",currentPage)
+    if (lastVisitedPage === "index.html") {
+        x = 40
     } else {
-        // Sinon, le personnage doit être dessiné à droite
-        initialX = 40;
-        console.log('Setting initial X to 40');
+        x = 890
+    }
+} else if (currentPage === "page_3.html") {
+    console.log('Last visited page:',lastVisitedPage)
+    console.log("Page actuelle:",currentPage)
+    if (lastVisitedPage === "page_2.html") {
+        x = 40
+    } else {
+        x = 890
+    }
+} else {
+    console.log('Last visited page:',lastVisitedPage)
+    console.log("Page actuelle:",currentPage)
+    if (lastVisitedPage === "page_3.html") {
+        x = 40
+    } else {
+        x = 890
     }
 }
 
-// Initialise la position du personnage
-let x = initialX;
-console.log('Initial X:', x);
+console.log('X:', x)
 
 
 
-/* Récupère la dernière page visitée depuis le localStorage
-const lastVisitedPage = localStorage.getItem('lastPage');
-console.log('Last visited page:', lastVisitedPage);
 
-// Détermine la position initiale du personnage en fonction de la dernière page visitée
-let initialX = 40; // Valeur par défaut
-
-if (lastVisitedPage === 'index.html') {
-    // Si la dernière page visitée était page_2.html, le personnage doit être dessiné à gauche
-    initialX = 890;
-    console.log('Setting initial X to 890')
-} else if (lastVisitedPage === 'page_4.html') {
-    / Si la dernière page visitée était page_4.html, le personnage doit être dessiné à droite
-    initialX = 890;
-    console.log('Setting initial X to 40');
-}
-
-// Initialise la position du personnage
-let x = initialX*/
-
-/* Récupère la dernière page visitée depuis le localStorage
-const currentPage = window.location.pathname.split("/").pop(); // Obtient le nom de la page actuelle
-const lastVisitedPage = localStorage.getItem('lastPage');
-console.log('Last visited page:', lastVisitedPage);
-
- Détermine la position initiale du personnage en fonction de la dernière page visitée et de la page actuelle
-let initialX = 40
-
-if (currentPage === 'index.html') {
-    if (lastVisitedPage === 'page_2.html') {
-        initialX = 890;
-        console.log('Setting initial X to 890');
-    }
-} else if (currentPage === 'page_2.html') {
-    if (lastVisitedPage === 'page_3.html') {
-        initialX = 890;
-        console.log('Setting initial X to 890');
-    }
-} else if (currentPage === 'page_3.html') {
-    if (lastVisitedPage === 'page_4.html') {
-        initialX = 890;
-        console.log('Setting initial X to 890');
-    } else if (lastVisitedPage === 'index.html') {
-        initialX = 890;
-        console.log('Setting initial X to 890');
-    }
-}
-
-/ Initialise la position du personnage
-let x = initialX;*/
