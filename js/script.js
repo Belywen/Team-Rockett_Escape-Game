@@ -42,7 +42,7 @@ if (currentPage === "index.html") {
  if (lastVisitedPage === "/page_4.html") {
     x = 40
  } else {
-    x = 850
+    x = 790
  }
 } else if (currentPage === "page_2.html") {
     if (lastVisitedPage === "/index.html") {

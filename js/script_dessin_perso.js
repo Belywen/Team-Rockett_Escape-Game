@@ -10,10 +10,10 @@ persoImage.onload = function () {
 
 //Personnage qui marche vers la droite n1
 function persoDroite1() {
-    let sx = 1
-    let sy = 3
-    let sWidth = 52 
-    let sHeight = 140 
+    let sx = 476
+    let sy = 38
+    let sWidth = 117 
+    let sHeight = 331 
     let dx = x 
     let dy = y 
 
@@ -59,13 +59,13 @@ function persoGauche2() {
 //Personnage face
 function persoFace() {  
     // Dessine seulement la partie de l'image délimitée par les coordonnées (sx, sy) et les dimensions (sWidth, sHeight)
-    let sx = 136.144 // Coordonnée x du coin supérieur gauche de la région à extraire
-    let sy = 136.283 // Coordonnée y du coin supérieur gauche de la région à extraire
-    let sWidth = 40 // Largeur de la région à extraire
-    let sHeight = 147 // Hauteur de la région à extraire
+    let sx = 36 // Coordonnée x du coin supérieur gauche de la région à extraire
+    let sy = 181 // Coordonnée y du coin supérieur gauche de la région à extraire
+    let sWidth = 257 // Largeur de la région à extraire
+    let sHeight = 563 // Hauteur de la région à extraire
 
     // Dimensions souhaitées pour le personnage
-    let targetWidth = 90; // Largeur souhaitée
+    let targetWidth = 150 // Largeur souhaitée
     let targetHeight = (targetWidth / sWidth) * sHeight; // Calculer la hauteur proportionnellement à la largeur
 
     let dx = x // Coordonnée x où dessiner l'image sur le canevas
