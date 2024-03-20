@@ -11,11 +11,12 @@ let prevY = y
 
 //Efface le personnage à chaque mouvement
 function clearPerso() {
-    let clearWidth = 200 // Largeur de la région du personnage
-    ctx.clearRect(prevX - clearWidth, 0, clearWidth + 70, canvas.height)
+    let clearWidth = 100 // Largeur de la région du personnage
+    ctx.clearRect(prevX - clearWidth, 0, clearWidth + 300, canvas.height)
 }
 
-//Fonction qui dessine le personnage
+
+/*Fonction qui dessine le personnage
 function drawPerso() {
     clearPerso()
     if (isArrowKeyPressed) {
@@ -38,7 +39,7 @@ function drawPerso() {
     }
 }
 
-/* Ajoutez les conditions pour les nouveaux personnages qui marchent vers la droite ici
+//Ajoutez les conditions pour les nouveaux personnages qui marchent vers la droite ici
 if (isPersoDroite && isArrowKeyPressed) {
     if (!isPersoDroite1) {
         persoDroite3();

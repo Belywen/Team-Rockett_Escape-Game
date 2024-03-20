@@ -74,24 +74,64 @@ function persoDroite4() {
 
 //Personnage qui marche vers la gauche n1
 function persoGauche1() {
-    let sx = 584 
-    let sy = 289
-    let sWidth = 56
-    let sHeight = 140 
+    let sx = 1450 
+    let sy = 790
+    let sWidth = 433
+    let sHeight = 558 
     let dx = x 
     let dy = y 
+
+    // Dimensions souhaitées pour le personnage
+    let targetWidth = 200 // Largeur souhaitée
+    let targetHeight = (targetWidth / sWidth) * sHeight;
 
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, targetWidth, targetHeight)
 }
 
 //Personnage qui marche vers la gauche n2
 function persoGauche2() {
+    let sx = 1209
+    let sy = 751
+    let sWidth = 232
+    let sHeight = 607
+    let dx = x     
+    let dy = y 
+
+    // Dimensions souhaitées pour le personnage
+    let targetWidth = 120 // Largeur souhaitée
+    let targetHeight = (targetWidth / sWidth) * sHeight;
+
+    ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, targetWidth, targetHeight)
+}
+
+//Personnage qui marche vers la gauche n3
+function persoGauche3() {
+    let sx = 928
+    let sy = 760
+    let sWidth = 250
+    let sHeight = 620
+    let dx = x     
+    let dy = y 
+
+    // Dimensions souhaitées pour le personnage
+    let targetWidth = 200 // Largeur souhaitée
+    let targetHeight = (targetWidth / sWidth) * sHeight;
+
+    ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, targetWidth, targetHeight)
+}
+
+//Personnage qui marche vers la gauche n4
+function persoGauche4() {
     let sx = 513
     let sy = 286
     let sWidth = 43
     let sHeight = 140
     let dx = x     
     let dy = y 
+
+    // Dimensions souhaitées pour le personnage
+    let targetWidth = 200 // Largeur souhaitée
+    let targetHeight = (targetWidth / sWidth) * sHeight;
 
     ctx.drawImage(persoImage, sx, sy, sWidth, sHeight, dx, dy, targetWidth, targetHeight)
 }
