@@ -6,6 +6,8 @@
           <title>Escape Game</title>
           <link rel="stylesheet" href="css/styles_index.css">
           <link rel="stylesheet" href="css/style_piece3.css">
+          <link rel="stylesheet" href="css/style_gen_menu.css">
+          
           <!--<link rel="stylesheet" href="css/styles_lvl01.css">-->
        </head>
        <body>
@@ -14,48 +16,41 @@
           </header>
              <section class="canvas-container">
                  <canvas id="myCanvas"></canvas>
-                    <img class="mur" src="images/piece1.png" alt="mur de couleur violet foncé et une couleur violet claire"/> 
-                    <img class="tableau3" src="images/tableau2.png" alt="un tableau de périodique accrocher au centre de la pièce"/>
+                    <img class="mur" src="images/piece3/piece1.png" alt="mur de couleur violet foncé et une couleur violet claire"/> 
+                    <img class="tableau3" src="images/piece3/tableau2.png" alt="un tableau de périodique accrocher au centre de la pièce"/>
                         <div class="container-bureau">
-                            <img class="bureau1" src="images/bureau4.png" alt="un bureau au centre avec des fioles"/>
-                            <img class="microscope" src="images/microscope.png" alt="le microscope poser sur le bureau"/>
-                            <img class="fiole_zinc" src="images/fiole_zinc.png" alt="une fiole de zinc">  
-                            <img class="fioleViolet" src="images/fiole-violet2.png" alt="une fiole violet"/>
-                            <img class="fioleViolet2" src="images/fiole-violet2.png" alt="une autre fiole violet"/>
-                            <img class="fiole_carbone" src="images/fiole_carbone.png" alt="une fiole de carbone">  
-                            <img class="flacon" src="images/flacon.png" alt="le premier flacon"/>
-                            <img class="flacon2" src="images/flacon.png" alt="le deuxieme flacon"/>
-                            <img class="flacon3" src="images/flacon.png" alt="le troisième flacon"/>
-                            <img class="flacon4" src="images/flacon4.png" alt="le quatrième flacon"/>
-                            <img class="fiole_cuivre" src="images/fiole_cuivre.png" alt="une fiole de cuivre">  
-                            <img class="fiolevide" src="images/fiolesvide.png" alt="une fiole Vide">    
-                            <img class="fiole_eau" src="images/fiole_eau.png" alt="une fiole d'eau">  
-                            <img class="flacon5" src="images/flacon.png" alt="le cinquième flacon"/>
-                            <img class="flacon6" src="images/flacon.png" alt="le sixieme flacon"/>
-                            <img class="flacon7" src="images/flacon.png" alt="le septième flacon"/>
-                            <img class="tubes" src="images/fioles1.png" alt="les tubes"/>
-                            <img class="fiole_chrome" src="images/fiole_chrome.png" alt="une fiole de chrome">  
-                            <img class="fiole_fer" src="images/fiole_fer.png" alt="une fiole de fer">  
-                            <!-- <img class="fiole_laiton" src="images/fiole_laiton.png" alt="une fiole de laiton">   -->
-                            <img class="cle" src="images/clé.png" alt="une clé pour ouvrir une serrure">
-                            <img class="trepied" src="images/trepied.png" alt="le trepied"/>
-                            <img class="chaise3" src="images/chaise5.png" alt="une chaise à côté du bureau à droite"/>
-                            <img class="porteManteau" src="images/porteManteau.png" alt="un porte-manteau à côté à gauche"/>
-                        <img class="tiroirOuvertGauche" src="images/tiroirOuvertGauche.png" alt="un tiroir ouvert à gauche"/>
-                        <img class="tiroirOuvertDroite" src="images/tiroirOuvertDroite.png" alt="un tiroir ouvert à gauche"/>
-                        <img class="lamelles" src="images/lamelle.png" alt="une lamelle">  
-                        <img class="lamelles2" src="images/lamelle.png" alt="une lamelle">  
-                        <img class="lamelles3" src="images/lamelle.png" alt="une lamelle">  
+                            <img class="bureau1" src="images/piece3/bureau4.png" alt="un bureau au centre avec des fioles"/>
+                            <img class="microscope" src="images/piece3/microscope.png" alt="le microscope poser sur le bureau"/>
+                            <img class="fiole_zinc" src="images/piece3/fiole_zinc.png" alt="une fiole de zinc">  
+                            <img class="fioleViolet" src="images/piece3/fiole-violet2.png" alt="une fiole violet"/>
+                            <img class="fioleViolet2" src="images/piece3/fiole-violet2.png" alt="une autre fiole violet"/>
+                            <img class="fiole_carbone" src="images/piece3/fiole_carbone.png" alt="une fiole de carbone">  
+                            <img class="flacon" src="images/piece3/flacon.png" alt="le premier flacon"/>
+                            <img class="flacon2" src="images/piece3/flacon.png" alt="le deuxieme flacon"/>
+                            <img class="flacon3" src="images/piece3/flacon.png" alt="le troisième flacon"/>
+                            <img class="flacon4" src="images/piece3/flacon4.png" alt="le quatrième flacon"/>
+                            <img class="fiole_cuivre" src="images/piece3/fiole_cuivre.png" alt="une fiole de cuivre">  
+                            <img class="fiolevide" src="images/piece3/fiolesvide.png" alt="une fiole Vide">    
+                            <img class="fiole_eau" src="images/piece3/fiole_eau.png" alt="une fiole d'eau">  
+                            <img class="flacon5" src="images/piece3/flacon.png" alt="le cinquième flacon"/>
+                            <img class="flacon6" src="images/piece3/flacon.png" alt="le sixieme flacon"/>
+                            <img class="flacon7" src="images/piece3/flacon.png" alt="le septième flacon"/>
+                            <img class="tubes" src="images/piece3/fioles1.png" alt="les tubes"/>
+                            <img class="fiole_chrome" src="images/piece3/fiole_chrome.png" alt="une fiole de chrome">  
+                            <img class="fiole_fer" src="images/piece3/fiole_fer.png" alt="une fiole de fer">  
+                            <!-- <img class="fiole_laiton" src="images/piece3/fiole_laiton.png" alt="une fiole de laiton">   -->
+                            <img class="cle" src="images/piece3/clé.png" alt="une clé pour ouvrir une serrure">
+                            <img class="trepied" src="images/piece3/trepied.png" alt="le trepied"/>
+                            <img class="chaise3" src="images/piece3/chaise7.png" alt="une chaise à côté du bureau à droite"/>
+                            <img class="porteManteau" src="images/piece3/porteManteau.png" alt="un porte-manteau à côté à gauche"/>
+                        <!-- <img class="tiroirOuvertGauche" src="images/piece3/tiroirOuvertGauche.png" alt="un tiroir ouvert à gauche"/> -->
+                        <!-- <img class="tiroirOuvertDroite" src="images/piece3/tiroirOuvertDroite.png" alt="un tiroir ouvert à gauche"/>
+                        <img class="lamelles" src="images/piece3/lamelle.png" alt="une lamelle">  
+                        <img class="lamelles2" src="images/piece3/lamelle.png" alt="une lamelle">  
+                        <img class="lamelles3" src="images/piece3/lamelle.png" alt="une lamelle">   -->
                         
-                        <!-- </div>
-            
-                        <img class="enigme" src="images/enigme.png" alt="apparation de l'énigme"/> -->
-                        <!-- <img class="bulle_interaction" src="images/bulle_interaction1.png" alt="une bulle de discution du personnage"/>  -->
-                        <!-- <img class="bulle_interaction2" src="images/bulle_interaction2.png" alt="une bulle de discution du personnage"/>  -->
-                        <!-- <img class="bulle_interaction3" src="images/bulle_interaction3.png" alt="une bulle de discution du personnage en carré"/>  -->
-                        <!-- <img class="bulle_interactionC" src="images/bulle_interaction4.png" alt="une bulle de discution du narateur"/>  -->
-                        <!-- <img class="gameoverC" src="images/gameover2.png" alt="perdu"/>  -->
-
+                        <!-- <img class="bulle_interaction" src="images/index/bulle_interaction3.png" alt="une bulle de discution du narateur"/>  -->                        
+                        <!-- <img class="gameoverA" src="images/index/gameover2.png" alt="perdu"/>  -->
              </section>
     <script src="script.js"></script>
 </body>
