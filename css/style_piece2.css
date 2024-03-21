@@ -172,20 +172,4 @@
 }
 
 
-.bulle_interactionB{
-    position: absolute;
-    width: 910px;
-    height: 110px;
-    left: 30px;
-    top: 55px;
-    z-index: 3;
-}
 
-.gameoverB{
-    width: 840px;
-    height: 203px;
-    position: absolute;
-    bottom: 200px;
-    left: 50px;
-    z-index: 3;
-}

@@ -229,8 +229,8 @@
 
 .chaise3{
     position: absolute;
-    width: 100px;
-    height: 218px;
+    width: 108px;
+    height: 248px;
     bottom: 5px;
     left: 730px; 
     z-index: 2;
@@ -300,23 +300,7 @@
     Left: 70px;    
 }
 
-.bulle_interactionC{
-    position: absolute;
-    width: 910px;
-    height: 110px;
-    left: -20px;
-    bottom: 375px;
-    z-index: 4;
-}
 
-.gameoverC{
-    width: 840px;
-    height: 203px;
-    position: absolute;
-    bottom: 170px;
-    left: 50px;
-    z-index: 3;
-}
 
 /* au cas où */
 

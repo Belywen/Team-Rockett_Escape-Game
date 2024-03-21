@@ -129,7 +129,7 @@ h1{
     width: 350px;
     height: 400px;
     bottom: 50px;
-    left: 220px;
+    left: 330px;
     z-index: 3;    
 }
 
@@ -178,20 +178,3 @@ h1{
     Left: 70px;    
 }
 
-.bulle_interactionD{
-    position: absolute;
-    width: 910px;
-    height: 110px;
-    left: 30px;
-    top: 55px;
-    z-index: 4;
-}
-
-.gameoverD{
-    width: 840px;
-    height: 203px;
-    position: absolute;
-    bottom: 220px;
-    left: 50px;
-    z-index: 3;
-}
